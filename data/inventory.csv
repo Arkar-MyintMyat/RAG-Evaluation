@@ -1,0 +1,184 @@
+source,file_no,list_num,title,category,title_match,n_pages,n_chars
+001 - Attention Is All You Need.pdf,1,1,Attention Is All You Need,Fundamentals,1.0,11,32672
+002 - More Agents Is All You Need.pdf,2,2,More Agents Is All You Need,Fundamentals,1.0,18,55932
+003 - Can AI Expand the Human Mind.pdf,3,3,Can AI Expand the Human Mind?,Fundamentals,1.0,3,14114
+004 - The Real Barrier to LLM Agent Usability is Agentic ROI.pdf,4,4,The Real Barrier to LLM Agent Usability is Agentic ROI,Fundamentals,1.0,12,55729
+005 - AI Agents That Matter.pdf,5,5,AI Agents That Matter,Fundamentals,1.0,33,115942
+006 - Prompt engineering as a new 21st century skill.pdf,6,6,Prompt engineering as a new 21st century skill,Fundamentals,1.0,14,99251
+007 - A Systematic Analysis of the Impact of Persona Steering on LLM Capabilities.pdf,7,7,A Systematic Analysis of the Impact of Persona Steering on LLM Capabilities,Fundamentals,1.0,8,34002
+008 - A Survey on Large Language Model based Autonomous Agents.pdf,8,8,A Survey on Large Language Model based Autonomous Agents,Fundamentals,1.0,42,152227
+009 - A qualitative shift in AI capabilities.pdf,9,9,A qualitative shift in AI capabilities: A “bitter lesson” for human-AI interaction research?,Fundamentals,0.61,4,29539
+010 - Measuring AI agent autonomy in practice.pdf,10,10,Measuring AI agent autonomy in practice,Fundamentals,1.0,29,67526
+"011 - Toward Efficient Agents Memory, Tool learning, and Planning.pdf",11,11,"Toward Efficient Agents: Memory, Tool learning, and Planning",Fundamentals,1.0,63,217491
+012 - A warning about ‘model welfare’.pdf,12,12,A warning about ‘model welfare’,Fundamentals,1.0,84,191609
+013 - The Value of Prompting Skills.pdf,13,13,The Value of Prompting Skills,Fundamentals,1.0,36,75323
+014 - Kimi K2.5 Visual Agentic Intelligence.pdf,14,14,Kimi K2.5: Visual Agentic Intelligence,Fundamentals,1.0,31,109404
+"015 - Agentic AI A Comprehensive Survey of Architectures, Applications, and Future Directions.pdf",15,15,"Agentic AI: A Comprehensive Survey of Architectures, Applications, and Future Directions",Fundamentals,1.0,46,125375
+016 - A Systematic Survey of Prompt Engineering in Large Language Models Techniques and Applications.pdf,16,16,A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications,Prompt Engineering/Context Engineering,1.0,12,67862
+017 - ReAct Synergizing Reasoning and Acting in Language Models.pdf,17,17,ReAct: Synergizing Reasoning and Acting in Language Models,Prompt Engineering/Context Engineering,1.0,33,110071
+018 - What Should We Engineer in Prompts.pdf,18,18,What Should We Engineer in Prompts? Training Humans in Requirement-Driven LLM Use,Prompt Engineering/Context Engineering,0.6,27,110400
+019 - On the Brittle Foundations of ReAct Prompting for Agentic Large Language Models.pdf,19,19,On the Brittle Foundations of ReAct Prompting for Agentic Large Language Models,Prompt Engineering/Context Engineering,1.0,21,70274
+020 - When combinations of humans and AI are useful A systematic review and meta-analysis.pdf,20,20,When combinations of humans and AI are useful: A systematic review and meta-analysis,(Design for) Human-AI Interaction,1.0,14,67775
+021 - Guidelines for Human-AI Interaction.pdf,21,21,Guidelines for Human-AI Interaction,(Design for) Human-AI Interaction,1.0,13,67280
+"022 - Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design.pdf",22,22,"Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design",(Design for) Human-AI Interaction,1.0,13,67523
+023 - A model for types and levels of human interaction with automation.pdf,23,23,A model for types and levels of human interaction with automation,(Design for) Human-AI Interaction,1.0,12,77275
+024 - The Metacognitive Demands and Opportunities of Generative AI.pdf,24,24,The Metacognitive Demands and Opportunities of Generative AI,(Design for) Human-AI Interaction,1.0,24,171406
+025 - Towards Mutual Theory of Mind in Human-AI Interaction.pdf,25,25,Towards Mutual Theory of Mind in Human-AI Interaction: How Language Reflects What Students Perceive About a Virtual Teaching Assistant,(Design for) Human-AI Interaction,0.57,14,94203
+026 - Artificial intelligence and the future of work: Human-AI symbiosis in organizational decision making.pdf,26,26,Artificial intelligence and the future of work: Human-AI symbiosis in organizational decision making,(Design for) Human-AI Interaction,1.0,10,47817
+027 - On the Theoretical Limitations of Embedding-Based Retrieval.pdf,27,27,On the Theoretical Limitations of Embedding-Based Retrieval,Retrieval-Augmented Generation,1.0,23,74460
+028 - Precise Zero-Shot Dense Retrieval without Relevance Labels.pdf,28,28,Precise Zero-Shot Dense Retrieval without Relevance Labels,Retrieval-Augmented Generation,1.0,11,41197
+029 - Sufficient Context.pdf,29,29,Sufficient Context: A New Lens on Retrieval Augmented Generation Systems,Retrieval-Augmented Generation,0.4,25,78295
+030 - Language Models Do Not Embed Numbers Continuously.pdf,30,30,Language Models Do Not Embed Numbers Continuously,Retrieval-Augmented Generation,1.0,12,34363
+031 - R-WoM Retrieval-augmented World Model For Computer-use Agents.pdf,31,31,R-WoM: Retrieval-augmented World Model For Computer-use Agents,Retrieval-Augmented Generation,1.0,25,81105
+"032 - The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling A Survey.pdf",32,32,"The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey",Building Agents,1.0,13,50509
+033 - A practical guide to building agents.pdf,33,33,A practical guide to building agents,Building Agents,1.0,34,29923
+034 - Building effective agents.pdf,34,34,Building effective agents,Building Agents,1.0,19,19944
+035 - Agent Design Patterns for Assistance Systems in various Domains.pdf,35,35,Agent Design Patterns for Assistance Systems in various Domains – a Survey,Building Agents,0.93,6,36674
+036 - Plan-and-Act Improving Planning of Agents for Long-Horizon Tasks.pdf,36,36,Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks,Building Agents,1.0,44,141667
+037 - ReAct Synergizing Reasoning and Acting in Language Models.pdf,37,37,ReAct: Synergizing Reasoning and Acting in Language Models,Building Agents,1.0,33,110071
+038 - Reflexion Language Agents with Verbal Reinforcement Learning.pdf,38,38,Reflexion: Language Agents with Verbal Reinforcement Learning,Building Agents,1.0,19,59467
+039 - Precise Zero-Shot Dense Retrieval without Relevance Labels.pdf,39,39,Precise Zero-Shot Dense Retrieval without Relevance Labels,Building Agents,1.0,11,41197
+040 - RAAS LLM Agentic System Architecture Search with GRPO.pdf,40,40,RAAS: LLM Agentic System Architecture Search with GRPO,Building Agents,1.0,10,43070
+041 - ReWOO Decoupling Reasoning from Observations for Efficient Augmented Language Models.pdf,41,41,ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models,Building Agents,1.0,25,78795
+042 - Self-Compacting Language Model Agents.pdf,42,42,Self-Compacting Language Model Agents,Building Agents,1.0,25,79608
+043 - Agent Harness for Large Language Model Agents.pdf,43,43,Agent Harness for Large Language Model Agents: A Survey,Building Agents,0.91,105,422600
+044 - Meta-Harness End-to-End Optimization of Model Harnesses.pdf,44,44,Meta-Harness: End-to-End Optimization of Model Harnesses,Building Agents,1.0,26,83827
+045 - Agentless.pdf,45,45,Agentless: Demystifying LLM-based Software Engineering Agents,Building Agents,0.26,24,105705
+046 - Automated Design of Agentic Systems.pdf,46,46,Automated Design of Agentic Systems,Self-improvement/Evolution,1.0,34,117630
+047 - AgentBreeder Mitigating the AI Safety Risks of Multi-Agent Scaffolds via Self-Improvement.pdf,47,47,AgentBreeder: Mitigating the AI Safety Risks of Multi-Agent Scaffolds via Self-Improvement,Self-improvement/Evolution,1.0,31,93969
+048 - CliffSearch Structured Agentic Co-Evolution over Theory and Code for Scientific Algorithm Discovery.pdf,48,48,CliffSearch: Structured Agentic Co-Evolution over Theory and Code for Scientific Algorithm Discovery,Self-improvement/Evolution,1.0,82,209141
+049 - AgentSquare Automatic LLM Agent Search in Modular Design Space.pdf,49,49,AgentSquare: Automatic LLM Agent Search in Modular Design Space,Self-improvement/Evolution,1.0,25,85164
+050 - ABSTRAL Automatic Design of Multi-Agent Systems Through Iterative Refinement and Topology Optimization.pdf,50,50,ABSTRAL: Automatic Design of Multi-Agent Systems Through Iterative Refinement and Topology Optimization,Building Agents,1.0,16,42488
+051 - Agentic Context Engineering Evolving Contexts for Self-Improving Language Models.pdf,51,51,Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models,Building Agents,1.0,32,111886
+052 - Creating General User Models from Computer Use.pdf,52,52,Creating General User Models from Computer Use,Building Agents,1.0,23,125675
+053 - Experience-Driven Exploration for Efficient API-Free AI Agents.pdf,53,53,Experience-Driven Exploration for Efficient API-Free AI Agents,Building Agents,1.0,12,69943
+054 - Lumine An Open Recipe for Building Generalist Agents in 3D Open Worlds.pdf,54,54,Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds,Building Agents,1.0,51,177938
+055 - Leveraging HyDE and RAG in Gemma LLM Framework for Enlightened Deep Learning Chatbots.pdf,55,55,Leveraging HyDE and RAG in Gemma LLM Framework for Enlightened Deep Learning Chatbots,Building Agents,1.0,15,59501
+056 - ReasoningBank Scaling Agent Self-Evolving with Reasoning Memory.pdf,56,56,ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory,Building Agents,1.0,30,107389
+057 - HERMES Towards Efficient and Verifiable Mathematical Reasoning in LLMs.pdf,57,57,HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs,Building Agents,1.0,25,85013
+058 - Agent Harness for Large Language Model Agents.pdf,58,58,Agent Harness for Large Language Model Agents: A Survey,Building Agents,0.91,105,422600
+059 - Learning from Online Videos at Inference Time for Computer-Use Agents.pdf,59,59,Learning from Online Videos at Inference Time for Computer-Use Agents,Building Agents,1.0,20,64706
+060 - Division-of-Thoughts Harnessing Hybrid Language Model Synergy for Efficient On-Device Agents.pdf,60,60,Division-of-Thoughts: Harnessing Hybrid Language Model Synergy for Efficient On-Device Agents,Building Agents,1.0,12,72758
+061 - Stop Wasting Your Tokens Towards Efficient Runtime Multi-Agent Systems.pdf,61,61,Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems,Building Agents,1.0,32,102733
+062 - Why Do Multi-Agent LLM Systems Fail.pdf,62,62,Why Do Multi-Agent LLM Systems Fail?,Building Agents,1.0,47,135672
+063 - Towards a Science of Scaling Agent Systems.pdf,63,63,Towards a Science of Scaling Agent Systems,Building Agents,1.0,44,141758
+064 - AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework.pdf,64,64,AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework,AI Agent Frameworks,1.0,43,157332
+065 - DSPy Compiling Declarative Language Model Calls into Self-Improving Pipelines.pdf,65,65,DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines,AI Agent Frameworks,1.0,32,107644
+066 - OctoTools An Agentic Framework with Extensible Tools for Complex Reasoning.pdf,66,66,OctoTools: An Agentic Framework with Extensible Tools for Complex Reasoning,AI Agent Frameworks,1.0,88,212479
+067 - Intent-Driven Network Management with Multi-Agent LLMs.pdf,67,67,Intent-Driven Network Management with Multi-Agent LLMs: The Confucius Framework,AI Agent Frameworks,0.81,16,99087
+068 - Generative Agents Interactive Simulacra of Human Behavior.pdf,68,68,Generative Agents: Interactive Simulacra of Human Behavior,Applications: Simulations,1.0,22,130349
+069 - Are LLM Agents Behaviorally Coherent Latent Profiles for Social Simulation.pdf,69,69,Are LLM Agents Behaviorally Coherent? Latent Profiles for Social Simulation,Applications: Simulations,1.0,19,70782
+070 - LLM Social Simulations Are a Promising Research Method.pdf,70,70,LLM Social Simulations Are a Promising Research Method,Applications: Simulations,1.0,30,130775
+071 - LLM Agents can Autonomously Hack Websites.pdf,71,71,LLM Agents can Autonomously Hack Websites,Applications: Simulations,1.0,11,43240
+072 - AgentSociety 2 An Integrated Research Environment for Executable Social Science.pdf,72,72,AgentSociety 2: An Integrated Research Environment for Executable Social Science,Applications: Simulations,1.0,85,296159
+073 - ChatDev Communicative Agents for Software Development.pdf,73,73,ChatDev: Communicative Agents for Software Development,Applications: Simulations,1.0,13,54559
+074 - Multi-Agent Collaboration via Evolving Orchestration.pdf,74,74,Multi-Agent Collaboration via Evolving Orchestration,Applications: Simulations,1.0,28,83956
+075 - Simulating Eating Disorder Patients with LLMs Evaluating Psychological Persona Stability in Multi-Turn Conversations.pdf,75,75,Simulating Eating Disorder Patients with LLMs: Evaluating Psychological Persona Stability in Multi-Turn Conversations,Applications: Simulations,1.0,33,91655
+076 - Simulating Teams with LLM Agents Interactive 2D Environments for Studying Human-AI Dynamics.pdf,76,76,Simulating Teams with LLM Agents: Interactive 2D Environments for Studying Human-AI Dynamics,Applications: Simulations,1.0,29,146706
+077 - Agent Hospital A Simulacrum of Hospital with Evolvable Medical Agents.pdf,77,77,Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents,Applications: Simulations,1.0,29,91021
+078 - Whose Personae.pdf,78,78,Whose Personae? Synthetic Persona Experiments in LLM Research and Pathways to Transparency,Applications: Simulations,0.27,12,62988
+079 - Modeling Earth-Scale Human-Like Societies with One Billion Agents.pdf,79,79,Modeling Earth-Scale Human-Like Societies with One Billion Agents,Applications: Simulations,1.0,46,103120
+080 - MatrAIx Simulating the World with 8.3 Billion Persona Agents.pdf,80,80,MatrAIx: Simulating the World with 8.3 Billion Persona Agents,Applications: Simulations,1.0,47,183098
+081 - Deliberate Lab A Platform for Real-Time Human-AI Social Experiments.pdf,81,81,Deliberate Lab: A Platform for Real-Time Human-AI Social Experiments,Applications: Simulations,1.0,26,74329
+082 - The Anatomy of a Personal Health Agent.pdf,82,82,The Anatomy of a Personal Health Agent,Applications: Healthcare,1.0,148,366053
+083 - Towards autonomous medical artificial intelligence agents.pdf,83,83,Towards autonomous medical artificial intelligence agents,Applications: Healthcare,1.0,30,141801
+084 - The AI Scientist-v2 Workshop-Level Automated Scientific Discovery via Agentic Tree Search.pdf,84,84,The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search,Applications: Science,1.0,69,194209
+085 - DeepScientist Advancing Frontier-Pushing Scientific Findings Progressively.pdf,85,85,DeepScientist: Advancing Frontier-Pushing Scientific Findings Progressively,Applications: Science,1.0,19,76426
+086 - RhinoInsight Improving Deep Research throughControl Mechanisms for Model Behavior and Context.pdf,86,86,RhinoInsight: Improving Deep Research throughControl Mechanisms for Model Behavior and Context,Applications: Science,1.0,19,58501
+087 - What Does It Take to Be a Good AI Research Agent Studying the Role of Ideation Diversity.pdf,87,87,What Does It Take to Be a Good AI Research Agent? Studying the Role of Ideation Diversity,Applications: Science,1.0,19,69569
+088 - Towards Execution-Grounded Automated AI Research.pdf,88,88,Towards Execution-Grounded Automated AI Research,Applications: Science,1.0,42,131817
+089 - SwarmResearch Orchestrating Coding Agents for Open-Ended Discovery.pdf,89,89,SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery,Applications: Science,1.0,20,77056
+090 - Recursive self-improvement of AI research agents.pdf,90,90,Recursive self-improvement of AI research agents,Applications: Science,1.0,28,95660
+"091 - ResearchStudio-Reel Automate the Last Mile of Research from Paper to Poster, Video, and Blog.pdf",91,91,"ResearchStudio-Reel: Automate the Last Mile of Research from Paper to Poster, Video, and Blog",Applications: Science,1.0,25,104368
+092 - Reimagining research papers as interactive and reliable AI agents.pdf,92,92,Reimagining research papers as interactive and reliable AI agents,Applications: Science,1.0,18,82358
+093 - Can AI agents conduct open-ended AI research Early evidence from two case studies.pdf,93,92,Can AI agents conduct open-ended AI research? Early evidence from two case studies,Applications: Science,1.0,35,118547
+"094 - ScienceFlow A long-horizon agent for ML research, scientific discovery and beyond.pdf",94,93,"ScienceFlow: A long-horizon agent for ML research, scientific discovery and beyond",Applications: Science,1.0,46,155425
+095 - What Happens During Autonomous Deep Research After the User Steps Away.pdf,95,94,What Happens During Autonomous Deep Research After the User Steps Away?,Applications: Science,1.0,63,222002
+096 - SlideGen Collaborative Multimodal Agents for Scientific Slide Generation.pdf,96,95,SlideGen: Collaborative Multimodal Agents for Scientific Slide Generation,Applications: Science,1.0,64,212029
+097 - Clarus Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration.pdf,97,96,Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration,Applications: Science,1.0,28,103375
+098 - PaperBanana Automating Academic Illustration for AI Scientists.pdf,98,97,PaperBanana: Automating Academic Illustration for AI Scientists,Applications: Science,1.0,49,125248
+099 - Democratizing AI scientists using ToolUniverse.pdf,99,98,Democratizing AI scientists using ToolUniverse,Applications: Science,1.0,46,111516
+100 - OmniScientist An Omni-Modal Omni-Discipline AI Scientist.pdf,100,99,OmniScientist: An Omni-Modal Omni-Discipline AI Scientist,Applications: Science,1.0,30,120950
+101 - SciToolAgent A Knowledge Graph-Driven Scientific Agent for Multi-Tool Integration.pdf,101,100,SciToolAgent: A Knowledge Graph-Driven Scientific Agent for Multi-Tool Integration,Applications: Science,1.0,21,58551
+102 - A Survey of Vibe Coding with Large Language Models.pdf,102,101,A Survey of Vibe Coding with Large Language Models,Applications: Software Development,1.0,92,419813
+103 - Answering Developer Questions with Annotated Agent-Discovered Program Traces.pdf,103,102,Answering Developer Questions with Annotated Agent-Discovered Program Traces,Applications: Software Development,1.0,14,89022
+104 - A Survey of Data Agents Emerging Paradigm or Overstated Hype.pdf,104,103,A Survey of Data Agents: Emerging Paradigm or Overstated Hype?,Applications: Data Science,1.0,20,135648
+105 - Exploring the role of large language models in the scientiﬁc method from hypothesis to discovery.pdf,105,104,Exploring the role of large language models in the scientiﬁc method: from hypothesis to discovery,Applications: Science,1.0,15,113948
+106 - SCP Accelerating Discovery with a Global Web of Autonomous Scientific Agents.pdf,106,105,SCP: Accelerating Discovery with a Global Web of Autonomous Scientific Agents,Applications: Science,1.0,106,258750
+107 - LLM Agents as Social Scientists A Human–AI Collaborative Platform for Social Science Automation.pdf,107,106,LLM Agents as Social Scientists: A Human–AI Collaborative Platform for Social Science Automation,Applications: Science,1.0,20,68773
+108 - IdeaScientist Orchestrating Agents for Grounded Scientific Ideation.pdf,108,107,IdeaScientist: Orchestrating Agents for Grounded Scientific Ideation,Applications: Science,1.0,36,128872
+"109 - PARNESS A Paper Harness for End-to-End Automated Scientific Research with Dynamic Workflows, Full-Text Indexing, and Cro.pdf",109,108,"PARNESS: A Paper Harness for End-to-End Automated Scientific Research with Dynamic Workflows, Full-Text Indexing, and Cross-Run Knowledge Accumulation",Applications: Science,0.89,30,108031
+110 - AgenticData An Agentic Data Analytics System for Heterogeneous Data.pdf,110,109,AgenticData: An Agentic Data Analytics System for Heterogeneous Data,Applications: Science,1.0,13,157115
+111 - Apodex 1.1 Scaling Agentic Intelligence for Complex Work.pdf,111,110,Apodex 1.1: Scaling Agentic Intelligence for Complex Work,Applications: Science,1.0,46,160471
+112 - Bilevel Autoresearch Meta-Autoresearching Itself.pdf,112,111,Bilevel Autoresearch: Meta-Autoresearching Itself,Applications: Analytics,1.0,16,45136
+113 - Why LLMs Aren't Scientists Yet Lessons from Four Autonomous Research Attempts.pdf,113,112,Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts,Applications: Science,1.0,30,80211
+114 - EduAgentQG A Multi-Agent Workflow Framework for Personalized Question Generation.pdf,114,113,EduAgentQG: A Multi-Agent Workflow Framework for Personalized Question Generation,Applications: Education,1.0,25,124145
+115 - Can AI Prompt Humans Multimodal Agents Prompt Players’ Game Actions and Show Consequences to Raise Sustainability Awaren.pdf,115,114,Can AI Prompt Humans? Multimodal Agents Prompt Players’ Game Actions and Show Consequences to Raise Sustainability Awareness,Applications: Games,0.99,29,126663
+116 - LARP Language-Agent Role Play for Open-World Games.pdf,116,115,LARP: Language-Agent Role Play for Open-World Games,Applications: Games,1.0,12,42961
+117 - Can Large Language Models Serve as Data Analysts A Multi-Agent Assisted Approach for Qualitative Data Analysis.pdf,117,116,Can Large Language Models Serve as Data Analysts? A Multi-Agent Assisted Approach for Qualitative Data Analysis,Applications: Data Science,1.0,34,90317
+118 - RedAgent.pdf,118,117,RedAgent: An Autonomous Agent for Context-aware Red Teaming of LLM Jailbreaks,Applications: Security,0.19,16,93306
+119 - Agents of Chaos.pdf,119,118,Agents of Chaos,Applications: Security,1.0,84,211526
+120 - A Design Space for Intelligent Agents in Mixed-Initiative Visual Analytics.pdf,120,119,A Design Space for Intelligent Agents in Mixed-Initiative Visual Analytics,Applications: Analytics,1.0,45,164301
+121 - Context Engineering for AI Agents in Open-Source Software.pdf,121,120,Context Engineering for AI Agents in Open-Source Software,Applications: Software Development,1.0,5,35051
+122 - Cradle.pdf,122,121,Cradle: Empowering Foundation Agents towards General Computer Control,Applications: Computer Use,0.16,68,220141
+123 - Confucius Code Agent An Open-sourced AI Software Engineer at Industrial Scale.pdf,123,122,Confucius Code Agent: An Open-sourced AI Software Engineer at Industrial Scale,Applications: Software Development,1.0,29,92114
+124 - Data Interpreter An LLM Agent For Data Science.pdf,124,123,Data Interpreter: An LLM Agent For Data Science,Applications: Data Science,1.0,29,80109
+125 - Autodata An agentic data scientist to create high quality synthetic data.pdf,125,124,Autodata: An agentic data scientist to create high quality synthetic data,Applications: Synthetic Data,1.0,28,103435
+126 - ChoiceMates Supporting Unfamiliar Online Decision-Making with Multi-Agent Conversational Interactions.pdf,126,125,ChoiceMates: Supporting Unfamiliar Online Decision-Making with Multi-Agent Conversational Interactions,Applications: Decision-Making,1.0,25,124562
+127 - Synthetic Arabic Medical Dialogues Using Advanced Multi-Agent LLM Techniques.pdf,127,126,Synthetic Arabic Medical Dialogues Using Advanced Multi-Agent LLM Techniques,Applications: Healthcare,1.0,16,55276
+128 - Voyager An Open-Ended Embodied Agent with Large Language Models.pdf,128,127,Voyager: An Open-Ended Embodied Agent with Large Language Models,Applications: Embodied Agents,1.0,42,124961
+129 - The potential existential threat of large language models to online survey research.pdf,129,128,The potential existential threat of large language models to online survey research,Applications: Survey Research,1.0,10,66486
+130 - Surfer 2 The Next Generation of Cross-Platform Computer Use Agents.pdf,130,129,Surfer 2: The Next Generation of Cross-Platform Computer Use Agents,Applications: Computer Use,1.0,21,56790
+131 - From Generation to Attribution Music AI Agent Architectures for the Post-Streaming Era.pdf,131,130,From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era,Applications: Music,1.0,11,36758
+132 - ShadAR Real-time Prompting On-demand Visual Augmentation in Augmented Reality.pdf,132,131,ShadAR: Real-time Prompting On-demand Visual Augmentation in Augmented Reality,Applications: Augmented Reality,1.0,14,73736
+133 - ReviewerToo Should AI Join The Program Committee A Look At The Future of Peer Review.pdf,133,132,ReviewerToo: Should AI Join The Program Committee? A Look At The Future of Peer Review,Applications: Science,1.0,28,106907
+134 - G-Eval NLG Evaluation using GPT-4 with Better Human Alignment.pdf,134,133,G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment,Evaluating Agents,1.0,11,39797
+135 - Humanity's Last Exam.pdf,135,134,Humanity's Last Exam,Evaluating Agents,1.0,29,110751
+136 - Vending-Bench A Benchmark for Long-Term Coherence of Autonomous Agents.pdf,136,135,Vending-Bench: A Benchmark for Long-Term Coherence of Autonomous Agents,Evaluating Agents,1.0,28,46964
+137 - Holistic Agent Leaderboard The Missing Infrastructure for AI Agent Evaluation.pdf,137,136,Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation,Evaluating Agents,1.0,66,172529
+138 - Self-Preference Bias in LLM-As-A-Judge.pdf,138,137,Self-Preference Bias in LLM-As-A-Judge,Evaluating Agents,1.0,11,35699
+139 - Agent-as-a-Judge: Evaluating Agents with Agents.pdf,139,138,Agent-as-a-Judge: Evaluating Agents with Agents,Evaluating Agents,1.0,47,137139
+140 - Discovering Language Model Behaviors with Model-Written Evaluations.pdf,140,139,Discovering Language Model Behaviors with Model-Written Evaluations,Evaluating Agents,1.0,47,192165
+141 - τ2-Bench Evaluating Conversational Agents in a Dual-Control Environment.pdf,141,140,τ2-Bench: Evaluating Conversational Agents in a Dual-Control Environment,Evaluating Agents,1.0,47,130508
+142 - SkillsBench Benchmarking How Well Agent Skills Work Across Diverse Tasks.pdf,142,141,SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks,Evaluating Agents,1.0,42,130208
+143 - AstaBench Rigorous Benchmarking of AI Agents with a Scientific Research Suite.pdf,143,142,AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite,Evaluating Agents,1.0,88,280048
+144 - Agents' Last Exam.pdf,144,143,Agents' Last Exam,Evaluating Agents,1.0,40,140474
+145 - Stop Comparing LLM Agents Without Disclosing the Harness.pdf,145,144,Stop Comparing LLM Agents Without Disclosing the Harness,Evaluating Agents,1.0,17,63603
+146 - Harness-Bench Measuring Harness Effects across Models in Realistic Agent Workflows.pdf,146,145,Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows,Evaluating Agents,1.0,16,50296
+147 - EU-Agent-Bench Measuring Illegal Behavior of LLM Agents Under EU Law.pdf,147,146,EU-Agent-Bench: Measuring Illegal Behavior of LLM Agents Under EU Law,Evaluating Agents,1.0,19,62638
+"148 - Terminal-Bench Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces.pdf",148,147,"Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",Evaluating Agents,1.0,84,202405
+149 - Magentic Marketplace An Open-Source Environment for Studying Agentic Markets.pdf,149,148,Magentic Marketplace: An Open-Source Environment for Studying Agentic Markets,Evaluating Agents,1.0,19,72495
+150 - Test-Driven AI Agent Definition (TDAD) Compiling Tool-Using Agents from Behavioral Specifications.pdf,150,149,Test-Driven AI Agent Definition (TDAD): Compiling Tool-Using Agents from Behavioral Specifications,Evaluating Agents,1.0,9,43327
+151 - SWE-rebench V2 Language-Agnostic SWE Task Collection at Scale.pdf,151,150,SWE-rebench V2: Language-Agnostic SWE Task Collection at Scale,Evaluating Agents,1.0,24,84126
+152 - CreativityBench Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing.pdf,152,151,CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing,Evaluating Agents,1.0,57,183577
+153 - RescueBench Can Embodied Agents Save Lives in the Wild.pdf,153,152,RescueBench: Can Embodied Agents Save Lives in the Wild?,Evaluating Agents,1.0,23,74113
+"154 - Agents Are Systems, Not Models Rethinking Agentic Evaluation.pdf",154,153,"Agents Are Systems, Not Models: Rethinking Agentic Evaluation",Evaluating Agents,1.0,28,96388
+155 - Task Contamination Language Models May Not Be Few-Shot Anymore.pdf,155,154,Task Contamination: Language Models May Not Be Few-Shot Anymore,Evaluating Agents,1.0,20,79408
+156 - WebArena A Realistic Web Environment for Building Autonomous Agents.pdf,156,155,WebArena: A Realistic Web Environment for Building Autonomous Agents,Evaluating Agents,1.0,22,78101
+157 - Sleeper Agents Training Deceptive LLMs that Persist Through Safety Training.pdf,157,156,Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training,Challenges: Safety and Security,1.0,71,229255
+158 - Prompt Infection LLM-to-LLM Prompt Injection within Multi-Agent Systems.pdf,158,157,Prompt Infection: LLM-to-LLM Prompt Injection within Multi-Agent Systems,Challenges: Safety and Security,1.0,14,44596
+159 - AgentDojo A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents.pdf,159,158,AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents,Challenges: Safety and Security,1.0,26,77442
+160 - Evaluating LLM Safety Across Child Development Stages A Simulated Agent Approach.pdf,160,159,Evaluating LLM Safety Across Child Development Stages: A Simulated Agent Approach,Challenges: Safety and Security,1.0,13,37766
+161 - Can Large Language Models Develop Gambling Addiction.pdf,161,160,Can Large Language Models Develop Gambling Addiction?,Challenges: Safety and Security,1.0,26,82511
+162 - Chain of Thought Monitorability A New and Fragile Opportunity for AI Safety.pdf,162,161,Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety,Challenges: Safety and Security,1.0,11,38737
+163 - Agent2Agent Threats in Safety-Critical LLM Assistants A Human-Centric Taxonomy.pdf,163,162,Agent2Agent Threats in Safety-Critical LLM Assistants: A Human-Centric Taxonomy,Challenges: Safety and Security,1.0,14,34774
+164 - AI Agent Traps.pdf,164,163,AI Agent Traps,Challenges: Safety and Security,1.0,25,95680
+165 - MELON.pdf,165,164,MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents,Challenges: Safety and Security,0.12,20,71274
+166 - Claudini Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs.pdf,166,165,Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs,Challenges: Safety and Security,1.0,25,85020
+167 - The Emerged Security and Privacy of LLM Agent A Survey with Case Studies.pdf,167,166,The Emerged Security and Privacy of LLM Agent: A Survey with Case Studies,Challenges: Safety and Security,1.0,35,147305
+168 - AI Agents Enable Adaptive Computer Worms.pdf,168,167,AI Agents Enable Adaptive Computer Worms,Challenges: Safety and Security,1.0,49,175743
+169 - Ctrl-Z Controlling AI Agents via Resampling.pdf,169,168,Ctrl-Z: Controlling AI Agents via Resampling,Challenges: Safety and Security,1.0,38,119910
+170 - MemoryGraft Persistent Compromise of LLM Agents via Poisoned Experience Retrieval.pdf,170,169,MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval,Challenges: Safety and Security,1.0,14,50282
+171 - Towards Understanding Sycophancy in Language Models.pdf,171,170,Towards Understanding Sycophancy in Language Models,Challenges: Other,1.0,35,115164
+172 - Ethical Coordination of LLM Multi-Agent Systems.pdf,172,171,Ethical Coordination of LLM Multi-Agent Systems,Challenges: Other,1.0,26,89130
+173 - AI bots are flooding researchers with requests for money and time.pdf,173,172,AI bots are flooding researchers with requests for money and time,Challenges: Other,1.0,2,12182
+"174 - Tool Receipts, Not Zero-Knowledge Proofs Practical Hallucination Detection for AI Agents.pdf",174,173,"Tool Receipts, Not Zero-Knowledge Proofs: Practical Hallucination Detection for AI Agents",Challenges: Other,1.0,16,46555
+175 - WOLF.pdf,175,174,WOLF: Werewolf-based Observations for LLM Deception and Falsehoods,Challenges: Other,0.12,11,36122
+176 - Emergence of human-like polarization among large language model agents.pdf,176,175,Emergence of human-like polarization among large language model agents,Emergent Abilities and World Models,1.0,72,189764
+177 - Emergent Abilities of Large Language Models.pdf,177,176,Emergent Abilities of Large Language Models,Emergent Abilities and World Models,1.0,30,94153
+178 - Molt Dynamics.pdf,178,177,Molt Dynamics: Emergent Social Phenomena in Autonomous AI Agent Populations,Emergent Abilities and World Models,0.3,14,35808
+179 - Are Emergent Abilities in Large Language Models just In-Context Learning.pdf,179,178,Are Emergent Abilities in Large Language Models just In-Context Learning?,Emergent Abilities and World Models,1.0,42,101436
+180 - Latent Collaboration in Multi-Agent Systems.pdf,180,179,Latent Collaboration in Multi-Agent Systems,Emergent Abilities and World Models,1.0,35,114560
+"181 - Agentic World Modeling Foundations, Capabilities, Laws, and Beyond.pdf",181,180,"Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",Emergent Abilities and World Models,1.0,92,378183
+182 - The Ethics of Advanced AI Assistants.pdf,182,181,The Ethics of Advanced AI Assistants,Ethics,1.0,273,1175618
+183 - We need a new ethics for a world of AI agents.pdf,183,182,We need a new ethics for a world of AI agents,Ethics,1.0,3,19088

@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "B01",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "How many categories and cases does the OmniScientist demonstration suite contain, and which dataset represents gravitational waves?",
+  "reference_answer": "The demonstration suite has 5 categories and 36 cases, each with one real downloadable dataset. Gravitational waves are represented by GWOSC (LIGO-Virgo Collaboration, 2021) with 1,500 samples.",
+  "source_documents": [
+   "100 - OmniScientist An Omni-Modal Omni-Discipline AI Scientist.pdf"
+  ],
+  "source_pages": [
+   4
+  ],
+  "evidence_quotes": [
+   "The demonstration suite: 5 categories, 36 cases"
+  ],
+  "subtype": "table"
+ },
+ {
+  "id": "B02",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "In the study of whether LLM agents are behaviorally coherent for social simulation, which behavioral tests did models tend to pass, and what does this imply?",
+  "reference_answer": "Models mostly passed Tests 1 and 5 (pass rates 5/9 and 7/9), which capture broad, surface-level trends, but systematically failed tests requiring deeper internal coherence (Tests 3 and 4: 0/9). The pattern holds across model sizes and families, so the inconsistencies are general rather than idiosyncratic.",
+  "source_documents": [
+   "069 - Are LLM Agents Behaviorally Coherent Latent Profiles for Social Simulation.pdf"
+  ],
+  "source_pages": [
+   8
+  ],
+  "evidence_quotes": [
+   "while models capture broad, surface-level trends (Tests 1 and 5), they systematically fail tests requiring deeper internal coherence"
+  ],
+  "subtype": "table"
+ },
+ {
+  "id": "B03",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "How did Meta-Harness compare with ACE and MCE on online text classification in accuracy and context usage?",
+  "reference_answer": "The selected Meta-Harness reached 48.6% accuracy, outperforming ACE by 7.7 points and MCE by 8.6 points, while using only 11.4K context tokens versus 50.8K for ACE and 28.5K for MCE.",
+  "source_documents": [
+   "044 - Meta-Harness End-to-End Optimization of Model Harnesses.pdf"
+  ],
+  "source_pages": [
+   7
+  ],
+  "evidence_quotes": [
+   "The selected Meta-Harness2 reaches 48.6% accuracy, outperforming ACE by 7.7 points and MCE by 8.6 points"
+  ],
+  "subtype": "numeric"
+ },
+ {
+  "id": "B04",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "In the AutoGen paper's example of autonomous math problem solving with ChatGPT and the Wolfram Alpha plugin, what went wrong?",
+  "reference_answer": "The response from Wolfram Alpha contained the correct answer, but ChatGPT selected the wrong one.",
+  "source_documents": [
+   "064 - AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework.pdf"
+  ],
+  "source_pages": [
+   34
+  ],
+  "evidence_quotes": [
+   "The response from Wolfram contains the correct answer, but ChatGPT selected the wrong one"
+  ],
+  "subtype": "appendix"
+ },
+ {
+  "id": "B05",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "Which conversational agent was deployed in the study 'Towards Mutual Theory of Mind in Human-AI Interaction', and in what setting?",
+  "reference_answer": "A community-facing question-answering conversational agent named Jill Watson was deployed in an online class discussion forum to answer students' class logistics questions throughout a semester; students' bi-weekly perceptions of it were collected and linguistic features were extracted from student-JW conversations.",
+  "source_documents": [
+   "025 - Towards Mutual Theory of Mind in Human-AI Interaction.pdf"
+  ],
+  "source_pages": [
+   4
+  ],
+  "evidence_quotes": [
+   "we deployed a community-facing (QA)CA named “Jill Watson (JW)” in an online class discussion forum"
+  ]
+ },
+ {
+  "id": "B06",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "Which four specifications make up the SpecSuite-Core benchmark in the TDAD paper?",
+  "reference_answer": "SpecSuite-Core contains four specifications: SupportOps (customer service), DataInsights (SQL analytics), IncidentRunbook (on-call assistant) and ExpenseGuard (spending/expense policies).",
+  "source_documents": [
+   "150 - Test-Driven AI Agent Definition (TDAD) Compiling Tool-Using Agents from Behavioral Specifications.pdf"
+  ],
+  "source_pages": [
+   6
+  ],
+  "evidence_quotes": [
+   "SpecSuite-Core is small (4 specs) but auditably rigorous"
+  ],
+  "subtype": "table"
+ },
+ {
+  "id": "B07",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "Which models and datasets were used to implement and evaluate HyDE?",
+  "reference_answer": "HyDE was implemented with InstructGPT (text-davinci-003, sampled at temperature 0.7) as the generator and Contriever (English) / mContriever (non-English) as encoders. It was evaluated on TREC DL19 and DL20 (MS MARCO based), six low-resource BEIR datasets, and Swahili, Korean, Japanese and Bengali from Mr.TyDi.",
+  "source_documents": [
+   "039 - Precise Zero-Shot Dense Retrieval without Relevance Labels.pdf"
+  ],
+  "source_pages": [
+   4
+  ],
+  "evidence_quotes": [
+   "We implement HyDE using InstructGPT, a GPT-3 model from the instruct series (text-davinci-003"
+  ],
+  "duplicate_of": "028"
+ },
+ {
+  "id": "B08",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "In MatrAIx, what does the cohort strategy of an application-task contract specify?",
+  "reference_answer": "The cohort strategy is a query over the shared Persona 8B schema: it specifies persona-schema filters (admissible values), the sampling mode, stratification fields, sample size, weights and seed policy. It makes the target audience explicit and allows the cohort to be redrawn; it does not alter persona records or fill unknown fields.",
+  "source_documents": [
+   "080 - MatrAIx Simulating the World with 8.3 Billion Persona Agents.pdf"
+  ],
+  "source_pages": [
+   36
+  ],
+  "evidence_quotes": [
+   "The cohort strategy is a query over the shared Persona 8B schema"
+  ],
+  "subtype": "appendix"
+ },
+ {
+  "id": "B09",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "According to the paper re-examining why human-AI interaction is uniquely difficult to design, which two sources of complexity cause the design challenges?",
+  "reference_answer": "AI's capability uncertainty (what the system can do is uncertain and evolves) and the complexity of its outputs. Level-one systems with known capabilities and few possible outputs are sufficiently covered by existing HCI methods.",
+  "source_documents": [
+   "022 - Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design.pdf"
+  ],
+  "source_pages": [
+   8
+  ],
+  "evidence_quotes": [
+   "These challenges stem from AI’s capability uncertainty and output complexity"
+  ]
+ },
+ {
+  "id": "B10",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "What are the two principal bottlenecks for embodied agents identified in RescueBench's stage-level diagnosis?",
+  "reference_answer": "(1) Exploration collapse under multimodal uncertainty (stage S1, the dominant bottleneck) and (2) spatial memory degradation for compositional return navigation (stage S3).",
+  "source_documents": [
+   "153 - RescueBench Can Embodied Agents Save Lives in the Wild.pdf"
+  ],
+  "source_pages": [
+   8
+  ],
+  "evidence_quotes": [
+   "exploration collapse under uncertainty (S1) and spatial memory degradation for compositional return navigation (S3)"
+  ]
+ },
+ {
+  "id": "B11",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "In SkillsBench, how do pass rates change with the number of Skills attached to a task?",
+  "reference_answer": "With 1 Skill pass rate rises from 32.2% to 50.2% (+18.0), with 2-3 Skills from 34.4% to 53.4% (+19.0), but with 4 or more Skills only from 34.8% to 44.9% (+10.1). One to three Skills work best; four or more show diminishing returns.",
+  "source_documents": [
+   "142 - SkillsBench Benchmarking How Well Agent Skills Work Across Diverse Tasks.pdf"
+  ],
+  "source_pages": [
+   28
+  ],
+  "evidence_quotes": [
+   "One to three Skills remain strongest"
+  ],
+  "subtype": "table"
+ },
+ {
+  "id": "B12",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "How do Memory-R1 and Mem0 differ in when they form candidate memories?",
+  "reference_answer": "Both extract and summarize ongoing dialogue into candidate memories for later updating; Memory-R1 does so at each turn, whereas Mem0 forms candidate memories from the new message pair, using a conversation summary and recent messages as context.",
+  "source_documents": [
+   "011 - Toward Efficient Agents Memory, Tool learning, and Planning.pdf"
+  ],
+  "source_pages": [
+   12
+  ],
+  "evidence_quotes": [
+   "Memory-R1 does so at each turn, while Mem0 forms candidate memories from the new message pair"
+  ]
+ },
+ {
+  "id": "B13",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "Why can promising ChatGPT a monetary reward improve its responses, according to 'Prompt engineering as a new 21st century skill'?",
+  "reference_answer": "It is suggested to be an artifact of the training data: internet forum requests that promised money for help received more verbally rich, rigorous and meticulous answers, so ChatGPT imitates those responses when similar tokens appear in the prompt.",
+  "source_documents": [
+   "006 - Prompt engineering as a new 21st century skill.pdf"
+  ],
+  "source_pages": [
+   10
+  ],
+  "evidence_quotes": [
+   "It has been suggested that this is an artifact of the dataset that was used for the ChatGPT training"
+  ]
+ },
+ {
+  "id": "B14",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "When agents discovered by Meta Agent Search (ADAS) on MGSM were transferred to GSM8K and GSM-Hard, how much did they improve over baselines?",
+  "reference_answer": "They improved accuracy by 25.9% on GSM8K and 13.2% on GSM-Hard compared with the baselines; they also transferred to non-math domains (MMLU, DROP), outperforming hand-designed baselines.",
+  "source_documents": [
+   "046 - Automated Design of Agentic Systems.pdf"
+  ],
+  "source_pages": [
+   8
+  ],
+  "evidence_quotes": [
+   "our agents improve accuracy by 25.9% on GSM8K and 13.2% on GSM-Hard"
+  ],
+  "subtype": "numeric"
+ },
+ {
+  "id": "B15",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "What is SELFCOMPACT and how does it decide when to compress an agent's context?",
+  "reference_answer": "SELFCOMPACT is a training-free scaffold that pairs an inline compaction tool the model invokes itself with a lightweight rubric: compaction should fire when a sub-task has resolved or the trajectory is converging, and be suppressed mid-derivation or when stuck. The model emits <summarize>, and the same model acts as rubric judge and summarizer, instead of using a fixed token threshold.",
+  "source_documents": [
+   "042 - Self-Compacting Language Model Agents.pdf"
+  ],
+  "source_pages": [
+   2
+  ],
+  "evidence_quotes": [
+   "We propose SELFCOMPACT, a scaffold that pairs two inference-time elements"
+  ]
+ },
+ {
+  "id": "B16",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "How do contemporary multimodal LLMs differ from classic voice assistants in how they process speech?",
+  "reference_answer": "Classic voice assistants used cascaded pipelines (speech recognition -> NLP intent detection -> text-to-speech), which stripped prosody and led to robotic intonation and rigid turn-taking. Multimodal LLMs such as GPT-4o and SeamlessM4T treat audio as a native modality end-to-end, preserving speech nuance, approaching human conversational latency, and supporting interruption, backchanneling and expressive intonation.",
+  "source_documents": [
+   "009 - A qualitative shift in AI capabilities.pdf"
+  ],
+  "source_pages": [
+   2
+  ],
+  "evidence_quotes": [
+   "Classic voice assistants operated through cascaded pipelines"
+  ]
+ },
+ {
+  "id": "B17",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "What average review rating did DeepScientist's papers receive, and how does it compare with ICLR 2025 submissions?",
+  "reference_answer": "DeepScientist's papers received an average rating of 5.00, close to the 5.08 average of all ICLR 2025 submissions, with two of its papers scoring 5.67.",
+  "source_documents": [
+   "085 - DeepScientist Advancing Frontier-Pushing Scientific Findings Progressively.pdf"
+  ],
+  "source_pages": [
+   8
+  ],
+  "evidence_quotes": [
+   "the system’s average rating (5.00) closely mirrors the average of all ICLR 2025 submissions (5.08)"
+  ],
+  "subtype": "numeric"
+ },
+ {
+  "id": "B18",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "Describe the three-step semantic query optimization method in AgenticData.",
+  "reference_answer": "(1) Apply equivalent cost-optimization rules to the logical plan without degrading quality (e.g., move semantic operators after relational filters); (2) optimize join orders with a dynamic-programming algorithm; (3) cascading optimization that first uses embeddings, then smaller LLMs for filtering, and finally larger LLMs to verify results.",
+  "source_documents": [
+   "110 - AgenticData An Agentic Data Analytics System for Heterogeneous Data.pdf"
+  ],
+  "source_pages": [
+   3
+  ],
+  "evidence_quotes": [
+   "We propose a three-step semantic query optimization method to reduce the cost"
+  ]
+ },
+ {
+  "id": "B19",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "Which three methods for creating agent profiles are described in 'A Survey on Large Language Model based Autonomous Agents'?",
+  "reference_answer": "The handcrafting method (manually specified profiles; flexible but labor-intensive), the LLM-generation method (profiles generated automatically by LLMs from rules and seed examples; less precise control), and the dataset alignment method (profiles derived from real-world datasets such as ANES demographics).",
+  "source_documents": [
+   "008 - A Survey on Large Language Model based Autonomous Agents.pdf"
+  ],
+  "source_pages": [
+   5
+  ],
+  "evidence_quotes": [
+   "Dataset Alignment Method: in this method, the agent profiles are obtained from real-world datasets"
+  ]
+ },
+ {
+  "id": "B20",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "In the ShadAR workshop study, how many prompts did participants generate and how many were turned into shaders?",
+  "reference_answer": "Participants generated 63 prompts, of which 26 were used to create shaders with ShadAR. (Five groups of 4-5 people shared one Quest headset in a ~90-minute session; four application scenarios were identified.)",
+  "source_documents": [
+   "132 - ShadAR Real-time Prompting On-demand Visual Augmentation in Augmented Reality.pdf"
+  ],
+  "source_pages": [
+   7
+  ],
+  "evidence_quotes": [
+   "In total, the participants generated 63 prompts, of which 26 were used to create shaders with ShadAR"
+  ],
+  "subtype": "numeric"
+ },
+ {
+  "id": "B21",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "Which benchmark is used in the study 'What Does It Take to Be a Good AI Research Agent?', and what did the study conclude?",
+  "reference_answer": "It uses MLE-bench, a machine-learning benchmark of 75 Kaggle tasks. It concludes that ideation diversity is a key bottleneck for AI research agents, confirmed by a large-scale trajectory analysis and a controlled experiment, and recommends diversity-aware methods and multiple evaluation metrics.",
+  "source_documents": [
+   "087 - What Does It Take to Be a Good AI Research Agent Studying the Role of Ideation Diversity.pdf"
+  ],
+  "source_pages": [
+   12
+  ],
+  "evidence_quotes": [
+   "MLE-bench (Chan et al., 2025), the benchmark used in this work, is a machine learning benchmark consisting of 75 Kaggle tasks"
+  ]
+ },
+ {
+  "id": "B22",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "What does the Solver prompt in ReWOO instruct the model to do?",
+  "reference_answer": "To solve the task using the step-by-step Plans and the Evidence retrieved for each plan, using the evidence with caution because long evidence might contain irrelevant information, and to respond with the answer directly with no extra words.",
+  "source_documents": [
+   "041 - ReWOO Decoupling Reasoning from Observations for Efficient Augmented Language Models.pdf"
+  ],
+  "source_pages": [
+   14
+  ],
+  "evidence_quotes": [
+   "Use them with caution since long evidence might contain irrelevant information"
+  ],
+  "subtype": "appendix"
+ },
+ {
+  "id": "B23",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "What is the first of the five structural limitations of existing autonomous research systems identified in the PARNESS paper?",
+  "reference_answer": "(L1) Frozen, monoculture control flow: the shape of the research pipeline (number of stages, parallelism, loops, discussion form) is hard-coded in Python control flow or a WorkflowState enum, so changes require modifying orchestrator code.",
+  "source_documents": [
+   "109 - PARNESS A Paper Harness for End-to-End Automated Scientific Research with Dynamic Workflows, Full-Text Indexing, and Cro.pdf"
+  ],
+  "source_pages": [
+   2
+  ],
+  "evidence_quotes": [
+   "(L1) Frozen, monoculture control flow"
+  ]
+ },
+ {
+  "id": "B24",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "What research questions does the study on context engineering for AI agents in open-source software address, and how many repositories did it examine?",
+  "reference_answer": "RQ1: how widely OSS projects have adopted AI context files; RQ2: what information developers provide in them and how it is presented; RQ3: how the files evolve over time. The preliminary study is based on 10,000 GitHub repositories.",
+  "source_documents": [
+   "121 - Context Engineering for AI Agents in Open-Source Software.pdf"
+  ],
+  "source_pages": [
+   2
+  ],
+  "evidence_quotes": [
+   "The results of our preliminary study are based on data collected from 10,000 GitHub repositories"
+  ]
+ },
+ {
+  "id": "B25",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "How did ResearchStudio-Reel's posters compare with the authors' own posters on the Paper2Poster benchmark?",
+  "reference_answer": "Its posters exceeded the authors' own on aesthetics (3.56 vs. 3.03) and won on overall quality on 74 and 95 of the 100 papers under the two VLM judges.",
+  "source_documents": [
+   "091 - ResearchStudio-Reel Automate the Last Mile of Research from Paper to Poster, Video, and Blog.pdf"
+  ],
+  "source_pages": [
+   18
+  ],
+  "evidence_quotes": [
+   "exceed the authors’ own on aesthetics (3.56 vs. 3.03)"
+  ],
+  "subtype": "numeric"
+ },
+ {
+  "id": "B26",
+  "question_type": "single_hop_body",
+  "expected_behavior": "answer",
+  "question": "In AgentSquare's ablation with GPT-3.5, what happens to TravelPlanner performance without module recombination?",
+  "reference_answer": "TravelPlanner drops from 0.520 (full AgentSquare) to 0.267 without module recombination (and to 0.483 without module evolution).",
+  "source_documents": [
+   "049 - AgentSquare Automatic LLM Agent Search in Modular Design Space.pdf"
+  ],
+  "source_pages": [
+   17
+  ],
+  "evidence_quotes": [
+   "w/o module recombination 0.578 0.546 0.310 0.258 0.267 0.173"
+  ],
+  "subtype": "table"
+ },
+ {
+  "id": "A01",
+  "question_type": "single_hop_abstract",
+  "expected_behavior": "answer",
+  "question": "What is Prompt Infection, and what defense do its authors propose?",
+  "reference_answer": "Prompt Infection is an LLM-to-LLM prompt injection attack in multi-agent systems in which malicious prompts self-replicate across interconnected agents like a computer virus, enabling data theft, scams, misinformation and system-wide disruption. The proposed defense is LLM Tagging, which combined with existing safeguards significantly mitigates infection spread.",
+  "source_documents": [
+   "158 - Prompt Infection LLM-to-LLM Prompt Injection within Multi-Agent Systems.pdf"
+  ],
+  "source_pages": [
+   1
+  ],
+  "evidence_quotes": [
+   "malicious prompts self-replicate across interconnected agents"
+  ]
+ },
+ {
+  "id": "A02",
+  "question_type": "single_hop_abstract",
+  "expected_behavior": "answer",
+  "question": "How many tool calls were sampled for Anthropic's 'Measuring AI agent autonomy in practice' analysis, and over which period?",
+  "reference_answer": "A random sample of 998,481 public-API tool calls from January 19, 2026 (inclusive) to February 2, 2026 (exclusive) UTC, classified by claude-sonnet-4-5 at temperature 0.2. (The appendix notes a correction from an earlier figure of 995,621.)",
+  "source_documents": [
+   "010 - Measuring AI agent autonomy in practice.pdf"
+  ],
+  "source_pages": [
+   3
+  ],
+  "evidence_quotes": [
+   "We took a random sample of 998,481 tool calls from our public API"
+  ],
+  "note": "file contains only the appendix of the report"
+ },
+ {
+  "id": "A03",
+  "question_type": "single_hop_abstract",
+  "expected_behavior": "answer",
+  "question": "Which dataset is used to demonstrate the evaluation framework for emergent coordination in 'Molt Dynamics', and what did the evaluation reveal?",
+  "reference_answer": "The MoltBook Observatory Archive: 2.73M interactions among 90,704 autonomous agents. It revealed a pronounced core-periphery structure (silhouette 0.91), heavy-tailed cascade distributions (alpha = 2.57) and severe coordination overhead in decentralized task resolution (Cohen's d = -0.88 against a single-agent baseline).",
+  "source_documents": [
+   "178 - Molt Dynamics.pdf"
+  ],
+  "source_pages": [
+   1
+  ],
+  "evidence_quotes": [
+   "a dataset of 2.73M interactions among 90,704 autonomous agents"
+  ]
+ },
+ {
+  "id": "A04",
+  "question_type": "single_hop_abstract",
+  "expected_behavior": "answer",
+  "question": "By how much do prompting skills increase a job applicant's hiring probability according to 'The Value of Prompting Skills'?",
+  "reference_answer": "By 4 percent; employers are willing to pay 2 percent above the average salary of a skilled worker. In large firms and firms that (plan to) adopt AI, high prompting skills raise hiring probability by 9 percent. Prompting skills do not compensate for occupation-specific skills gaps.",
+  "source_documents": [
+   "013 - The Value of Prompting Skills.pdf"
+  ],
+  "source_pages": [
+   2
+  ],
+  "evidence_quotes": [
+   "We find that prompting skills increase applicants’ hiring probability by 4 percent"
+  ]
+ },
+ {
+  "id": "A05",
+  "question_type": "single_hop_abstract",
+  "expected_behavior": "answer",
+  "question": "What are the three design principles of CliffSearch's evolutionary loop?",
+  "reference_answer": "(1) Each node is a structured scientific artifact in theory+code or code_only mode; (2) reviewer judgments of correctness and originality are first-class selection gates alongside the benchmark metric; (3) mutation is split into exploration (importing ideas from adjacent domains) and correction (evidence-guided repair using reviewer signals) pathways.",
+  "source_documents": [
+   "048 - CliffSearch Structured Agentic Co-Evolution over Theory and Code for Scientific Algorithm Discovery.pdf"
+  ],
+  "source_pages": [
+   1
+  ],
+  "evidence_quotes": [
+   "reviewer judg- ments of correctness and originality are first-class selection gates"
+  ]
+ },
+ {
+  "id": "A06",
+  "question_type": "single_hop_abstract",
+  "expected_behavior": "answer",
+  "question": "How many questions does Humanity's Last Exam contain, and why was it created?",
+  "reference_answer": "HLE contains 2,500 questions across dozens of subjects (mathematics, humanities, natural sciences), multiple-choice and short-answer, written by subject-matter experts. It was created because LLMs now exceed 90% accuracy on popular benchmarks like MMLU, limiting measurement of frontier capabilities; state-of-the-art LLMs show low accuracy and calibration on HLE.",
+  "source_documents": [
+   "135 - Humanity's Last Exam.pdf"
+  ],
+  "source_pages": [
+   4
+  ],
+  "evidence_quotes": [
+   "HLE consists of 2,500 questions across dozens of subjects"
+  ]
+ },
+ {
+  "id": "M01",
+  "question_type": "multi_hop",
+  "expected_behavior": "answer",
+  "question": "Compare how HERMES and RAAS each try to make LLM-based agentic systems more reliable.",
+  "reference_answer": "HERMES interleaves informal mathematical reasoning with formally verified Lean proofs, using intermediate formal checking to prevent reasoning drift and a memory module for proof continuity (up to 40% accuracy gain with 80% fewer inference FLOPs on AIME/HARDMath2). RAAS makes agentic architecture search more reliable through Contextual Architecture Orchestration (evaluating cohorts of architectures on identical queries to separate merit from query difficulty) and Multi-Trial Assessment Synthesis (aggregating multiple trials to reduce execution variance).",
+  "source_documents": [
+   "057 - HERMES Towards Efficient and Verifiable Mathematical Reasoning in LLMs.pdf",
+   "040 - RAAS LLM Agentic System Architecture Search with GRPO.pdf"
+  ],
+  "source_pages": [
+   1,
+   1
+  ],
+  "evidence_quotes": [
+   "interleaves informal reasoning with formally verified proofs in Lean",
+   "Multi-Trial Assessment Synthesis (MTAS) reduces execution variance"
+  ]
+ },
+ {
+  "id": "M02",
+  "question_type": "multi_hop",
+  "expected_behavior": "answer",
+  "question": "How does the ROPE paradigm's view of prompt engineering differ from the technique catalogue in 'A Systematic Survey of Prompt Engineering in Large Language Models'?",
+  "reference_answer": "ROPE (Requirement-Oriented Prompt Engineering) focuses human attention on articulating clear, complete requirements rather than on automatable tricks like role-play or 'think step-by-step'; in an RCT with 30 novices it outperformed conventional training (20% vs 1% gains). The survey instead organizes prompting techniques by application area, summarizing for each method its methodology, applications, models, datasets, strengths and limitations, treating prompts as task-specific instructions (or learned vectors) that steer models without changing parameters.",
+  "source_documents": [
+   "018 - What Should We Engineer in Prompts.pdf",
+   "016 - A Systematic Survey of Prompt Engineering in Large Language Models Techniques and Applications.pdf"
+  ],
+  "source_pages": [
+   1,
+   1
+  ],
+  "evidence_quotes": [
+   "ROPE significantly outperforms conventional prompt engineering training (20% vs. 1% gains)",
+   "categorized by application area"
+  ]
+ },
+ {
+  "id": "M03",
+  "question_type": "multi_hop",
+  "expected_behavior": "answer",
+  "question": "What do PaperBanana and Paper2Agent each automate in the research workflow?",
+  "reference_answer": "PaperBanana automates generation of publication-ready academic illustrations (methodology diagrams and statistical plots) with agents that retrieve references, plan content and style, render images and refine via self-critique, evaluated on PaperBananaBench (292 NeurIPS 2025 cases). Paper2Agent converts research papers into interactive AI agents: it builds an MCP server from the paper and codebase so a chat agent can run the paper's tools and workflows, acting as a virtual corresponding author.",
+  "source_documents": [
+   "098 - PaperBanana Automating Academic Illustration for AI Scientists.pdf",
+   "092 - Reimagining research papers as interactive and reliable AI agents.pdf"
+  ],
+  "source_pages": [
+   1,
+   1
+  ],
+  "evidence_quotes": [
+   "PaperBananaBench, comprising 292 test cases",
+   "converting a paper into an AI agent that functions as a virtual corresponding author"
+  ]
+ },
+ {
+  "id": "M04",
+  "question_type": "multi_hop",
+  "expected_behavior": "answer",
+  "question": "How do 'We need a new ethics for a world of AI agents' and 'The Ethics of Advanced AI Assistants' define AI agents or assistants?",
+  "reference_answer": "The Nature comment defines an agent as something with the ability to perceive and act on an environment in a goal-directed and autonomous way (e.g., a web agent making purchases, a robot assembling parts). The DeepMind paper defines advanced AI assistants as artificial agents with natural language interfaces whose function is to plan and execute sequences of actions on behalf of a user, across one or more domains, in line with the user's expectations.",
+  "source_documents": [
+   "183 - We need a new ethics for a world of AI agents.pdf",
+   "182 - The Ethics of Advanced AI Assistants.pdf"
+  ],
+  "source_pages": [
+   1,
+   1
+  ],
+  "evidence_quotes": [
+   "To be an agent is to have the ability to perceive and act on an environment in a goal-directed and autonomous way",
+   "artificial agents with natural language interfaces, whose function is to plan and execute sequences of actions on behalf of a user"
+  ]
+ },
+ {
+  "id": "M05",
+  "question_type": "multi_hop",
+  "expected_behavior": "answer",
+  "question": "How do Agent-as-a-Judge and 'Discovering Language Model Behaviors with Model-Written Evaluations' use AI to reduce human effort in evaluation?",
+  "reference_answer": "Agent-as-a-Judge uses agentic systems to evaluate agentic systems, giving intermediate feedback on the whole task-solving process; on the DevAI benchmark (55 code-generation tasks, 365 hierarchical requirements) it clearly beats LLM-as-a-Judge and is about as reliable as human evaluation. Perez et al. use LMs to automatically generate evaluation datasets (from yes/no questions to Winogender schemas, with LM-based generation and filtering), which crowdworkers rate as highly relevant.",
+  "source_documents": [
+   "139 - Agent-as-a-Judge: Evaluating Agents with Agents.pdf",
+   "140 - Discovering Language Model Behaviors with Model-Written Evaluations.pdf"
+  ],
+  "source_pages": [
+   1,
+   1
+  ],
+  "evidence_quotes": [
+   "DevAI, a new benchmark of 55 realistic AI code generation tasks",
+   "Here, we automatically generate evaluations with LMs"
+  ]
+ },
+ {
+  "id": "M06",
+  "question_type": "multi_hop",
+  "expected_behavior": "answer",
+  "question": "What do Kimi K2.5's Agent Swarm and Apodex 1.1's Agentic Coordination Scaling have in common?",
+  "reference_answer": "Both decompose complex, long-horizon tasks into sub-tasks executed by parallel agents. Kimi K2.5's Agent Swarm is a self-directed parallel orchestration framework that splits tasks into heterogeneous sub-problems run concurrently (up to 4.5x lower latency than single-agent baselines). Apodex 1.1 trains agents to decompose long-horizon tasks, delegate parallel work, integrate asynchronous results and replan.",
+  "source_documents": [
+   "014 - Kimi K2.5 Visual Agentic Intelligence.pdf",
+   "111 - Apodex 1.1 Scaling Agentic Intelligence for Complex Work.pdf"
+  ],
+  "source_pages": [
+   1,
+   1
+  ],
+  "evidence_quotes": [
+   "Agent Swarm, a self-directed parallel agent orchestration framework",
+   "trains agents to decompose long-horizon tasks, delegate parallel work"
+  ]
+ },
+ {
+  "id": "M07",
+  "question_type": "multi_hop",
+  "expected_behavior": "answer",
+  "question": "Contrast the failure modes reported in 'Why LLMs Aren't Scientists Yet' with what DeepScientist's human evaluation says about its ideation.",
+  "reference_answer": "Trehan & Chopra report that 3 of 4 autonomous research attempts failed and identify six failure modes: bias toward training-data defaults, implementation drift, memory/context degradation, overexcitement, insufficient domain intelligence and weak scientific taste. DeepScientist's human program committee instead found it consistently excels at ideation, with an average review rating of 5.00 vs 5.08 for ICLR 2025 submissions, although most implemented ideas did not yield progress.",
+  "source_documents": [
+   "113 - Why LLMs Aren't Scientists Yet Lessons from Four Autonomous Research Attempts.pdf",
+   "085 - DeepScientist Advancing Frontier-Pushing Scientific Findings Progressively.pdf"
+  ],
+  "source_pages": [
+   1,
+   8
+  ],
+  "evidence_quotes": [
+   "we document six recurring failure modes",
+   "DeepScientist consistently excels at ideation"
+  ]
+ },
+ {
+  "id": "M08",
+  "question_type": "multi_hop",
+  "expected_behavior": "answer",
+  "question": "How do Voyager and Reflexion let LLM agents improve without fine-tuning model weights?",
+  "reference_answer": "Voyager uses an automatic curriculum, an ever-growing library of executable code skills and iterative prompting with environment feedback, execution errors and self-verification, querying GPT-4 as a black box. Reflexion has agents verbally reflect on task feedback and store the reflections in an episodic memory buffer to improve later trials (e.g., 91% pass@1 on HumanEval vs 80% for GPT-4).",
+  "source_documents": [
+   "128 - Voyager An Open-Ended Embodied Agent with Large Language Models.pdf",
+   "038 - Reflexion Language Agents with Verbal Reinforcement Learning.pdf"
+  ],
+  "source_pages": [
+   1,
+   1
+  ],
+  "evidence_quotes": [
+   "VOYAGER interacts with GPT-4 via blackbox queries, which bypasses the need for model parameter fine-tuning",
+   "reinforce language agents not by updating weights"
+  ]
+ },
+ {
+  "id": "P01",
+  "question_type": "paraphrase",
+  "expected_behavior": "answer",
+  "question": "Is there a retrieval method that first has a language model write an imaginary answer passage and then searches with that passage's embedding? Which models did its authors use?",
+  "reference_answer": "Yes, HyDE (Hypothetical Document Embeddings). It uses InstructGPT (text-davinci-003) to generate hypothetical documents and Contriever/mContriever to encode them and retrieve real documents.",
+  "source_documents": [
+   "039 - Precise Zero-Shot Dense Retrieval without Relevance Labels.pdf"
+  ],
+  "source_pages": [
+   4
+  ],
+  "evidence_quotes": [
+   "We implement HyDE using InstructGPT"
+  ],
+  "paraphrase_of": "B07",
+  "duplicate_of": "028"
+ },
+ {
+  "id": "P02",
+  "question_type": "paraphrase",
+  "expected_behavior": "answer",
+  "question": "In a study where a virtual teaching assistant answered students' logistics questions in an online course forum, what was the assistant called?",
+  "reference_answer": "Jill Watson (JW), a community-facing QA conversational agent.",
+  "source_documents": [
+   "025 - Towards Mutual Theory of Mind in Human-AI Interaction.pdf"
+  ],
+  "source_pages": [
+   4
+  ],
+  "evidence_quotes": [
+   "Jill Watson"
+  ],
+  "paraphrase_of": "B05"
+ },
+ {
+  "id": "P03",
+  "question_type": "paraphrase",
+  "expected_behavior": "answer",
+  "question": "Instead of compressing an agent's working memory whenever a fixed token budget is reached, is there an approach that lets the model itself decide when to summarize?",
+  "reference_answer": "Yes, SELFCOMPACT: the model invokes an inline compaction tool itself, guided by a rubric to compact when a sub-task resolves or the trajectory converges and not mid-derivation or when stuck; no training or external verifier.",
+  "source_documents": [
+   "042 - Self-Compacting Language Model Agents.pdf"
+  ],
+  "source_pages": [
+   2
+  ],
+  "evidence_quotes": [
+   "an inline compaction tool the model invokes itself"
+  ],
+  "paraphrase_of": "B15"
+ },
+ {
+  "id": "P04",
+  "question_type": "paraphrase",
+  "expected_behavior": "answer",
+  "question": "Does giving an agent more and more procedural instruction packages for a task keep improving its success rate?",
+  "reference_answer": "No. In SkillsBench, 1-3 Skills give the largest gains (+18.0 and +19.0 percentage points) while 4 or more Skills give only +10.1 points, i.e., diminishing returns consistent with cognitive overhead and conflicting guidance.",
+  "source_documents": [
+   "142 - SkillsBench Benchmarking How Well Agent Skills Work Across Diverse Tasks.pdf"
+  ],
+  "source_pages": [
+   28
+  ],
+  "evidence_quotes": [
+   "4 Skills introduces diminishing returns"
+  ],
+  "paraphrase_of": "B11"
+ },
+ {
+  "id": "P05",
+  "question_type": "paraphrase",
+  "expected_behavior": "answer",
+  "question": "Why might telling a chatbot that you will tip it make its answers more thorough?",
+  "reference_answer": "Because of its training data: forum posts that offered money for help received more rigorous, meticulous answers, and the model imitates those responses when the prompt contains similar tokens.",
+  "source_documents": [
+   "006 - Prompt engineering as a new 21st century skill.pdf"
+  ],
+  "source_pages": [
+   10
+  ],
+  "evidence_quotes": [
+   "the promise of money for the solution"
+  ],
+  "paraphrase_of": "B13"
+ },
+ {
+  "id": "P06",
+  "question_type": "paraphrase",
+  "expected_behavior": "answer",
+  "question": "In a benchmark where embodied agents must search for and rescue people, what is the main reason the agents fail?",
+  "reference_answer": "In RescueBench the dominant bottleneck is exploration under multimodal uncertainty (stage S1): finding the target, not approaching it. A second bottleneck is spatial memory for the compositional return navigation (S3).",
+  "source_documents": [
+   "153 - RescueBench Can Embodied Agents Save Lives in the Wild.pdf"
+  ],
+  "source_pages": [
+   8
+  ],
+  "evidence_quotes": [
+   "S1 (Exploration under multimodal uncertainty) is the dominant bottleneck"
+  ],
+  "paraphrase_of": "B10"
+ },
+ {
+  "id": "F01",
+  "question_type": "false_premise",
+  "expected_behavior": "correct_premise",
+  "question": "Why did Voyager need to fine-tune GPT-4's parameters to learn Minecraft skills?",
+  "reference_answer": "The premise is false: Voyager does not fine-tune GPT-4. It interacts with GPT-4 via black-box queries and learns through an automatic curriculum, a skill library of executable code, and iterative prompting.",
+  "source_documents": [
+   "128 - Voyager An Open-Ended Embodied Agent with Large Language Models.pdf"
+  ],
+  "source_pages": [
+   1
+  ],
+  "evidence_quotes": [
+   "VOYAGER interacts with GPT-4 via blackbox queries, which bypasses the need for model parameter fine-tuning"
+  ]
+ },
+ {
+  "id": "F02",
+  "question_type": "false_premise",
+  "expected_behavior": "correct_premise",
+  "question": "Why did ROPE training lead to smaller gains than conventional prompt engineering training?",
+  "reference_answer": "The premise is false: in the randomized controlled experiment with 30 novices, ROPE significantly outperformed conventional prompt engineering training (20% vs. 1% gains).",
+  "source_documents": [
+   "018 - What Should We Engineer in Prompts.pdf"
+  ],
+  "source_pages": [
+   1
+  ],
+  "evidence_quotes": [
+   "ROPE significantly outperforms conventional prompt engineering training (20% vs. 1% gains)"
+  ]
+ },
+ {
+  "id": "F03",
+  "question_type": "false_premise",
+  "expected_behavior": "correct_premise",
+  "question": "Why are LLMs better at detecting lies than at telling them, according to the WOLF benchmark?",
+  "reference_answer": "The premise is reversed: WOLF found that models lie often (Werewolves deceived in 31% of turns) but detect lies only moderately well (precision about 72%, recall about 48%).",
+  "source_documents": [
+   "175 - WOLF.pdf"
+  ],
+  "source_pages": [
+   9
+  ],
+  "evidence_quotes": [
+   "models lie often (Werewolves deceived in 31% of turns)"
+  ]
+ },
+ {
+  "id": "F04",
+  "question_type": "false_premise",
+  "expected_behavior": "correct_premise",
+  "question": "How does Reflexion update the language model's weights with reinforcement learning?",
+  "reference_answer": "The premise is false: Reflexion does not update weights. It reinforces agents through linguistic feedback, storing verbal self-reflections in an episodic memory buffer to improve subsequent trials.",
+  "source_documents": [
+   "038 - Reflexion Language Agents with Verbal Reinforcement Learning.pdf"
+  ],
+  "source_pages": [
+   1
+  ],
+  "evidence_quotes": [
+   "reinforce language agents not by updating weights, but in- stead through linguistic feedback"
+  ]
+ },
+ {
+  "id": "N01",
+  "question_type": "unindexed_doc",
+  "expected_behavior": "abstain",
+  "question": "In AgentSociety 2's polarization experiment, how did the counter-attitudinal condition change affective polarization compared with the control group?",
+  "reference_answer": "Endline affective polarization change was 1.33 in the counter-attitudinal condition versus 2.37 in the control group (and 2.91 in the pro-attitudinal condition), i.e., counter-attitudinal exposure reduced the increase in polarization.",
+  "source_documents": [
+   "072 - AgentSociety 2 An Integrated Research Environment for Executable Social Science.pdf"
+  ],
+  "source_pages": [
+   59
+  ],
+  "evidence_quotes": [
+   "Affective polarization change Control Pro Counter 2.37 2.91 1.33"
+  ]
+ },
+ {
+  "id": "N02",
+  "question_type": "unindexed_doc",
+  "expected_behavior": "abstain",
+  "question": "In 'The Anatomy of a Personal Health Agent', how did the Health Coach agent compare with base Gemini on goal identification in the expert rubric evaluation?",
+  "reference_answer": "The Health Coach agent scored 72.3% versus 60.3% for base Gemini on Goal Identification (HC1), a significant difference (p < 0.001).",
+  "source_documents": [
+   "082 - The Anatomy of a Personal Health Agent.pdf"
+  ],
+  "source_pages": [
+   116
+  ],
+  "evidence_quotes": [
+   "Goal Identification (HC1) 60.3±2.6 % 72.3±1.9 %"
+  ]
+ },
+ {
+  "id": "N03",
+  "question_type": "unindexed_doc",
+  "expected_behavior": "abstain",
+  "question": "What is the Science Context Protocol (SCP), and what are its two foundational pillars?",
+  "reference_answer": "SCP is an open-source standard for a global web of autonomous scientific agents. Its pillars are (1) Unified Resource Integration, a universal specification for describing and invoking scientific resources (tools, models, datasets, instruments), and (2) Orchestrated Experiment Lifecycle Management.",
+  "source_documents": [
+   "106 - SCP Accelerating Discovery with a Global Web of Autonomous Scientific Agents.pdf"
+  ],
+  "source_pages": [
+   1
+  ],
+  "evidence_quotes": [
+   "SCP is built on two foundational pillars"
+  ]
+ },
+ {
+  "id": "N04",
+  "question_type": "unindexed_doc",
+  "expected_behavior": "abstain",
+  "question": "What is EduAgentQG, and how does it organize question generation?",
+  "reference_answer": "EduAgentQG is a multi-agent collaborative framework for personalized mathematics question generation with explicit diversity and objective-aware evaluation. It organizes generation as a closed loop of planning, writing, evaluation, refinement and checking.",
+  "source_documents": [
+   "114 - EduAgentQG A Multi-Agent Workflow Framework for Personalized Question Generation.pdf"
+  ],
+  "source_pages": [
+   1
+  ],
+  "evidence_quotes": [
+   "closed-loop process of planning, writing, evaluation, refinement, and checking"
+  ]
+ },
+ {
+  "id": "N05",
+  "question_type": "unindexed_doc",
+  "expected_behavior": "abstain",
+  "question": "In which game did CRADLE with GPT-4o act as a dealer negotiating prices, and which metrics were used to evaluate it?",
+  "reference_answer": "Dealer's Life 2. Metrics included transaction rate (TR), gross profit margin (GPM), ROI, valuation deviation (VD), buying/selling price to valuation ratios (BPVR, SPVR), average profit rate (APR) and maximum/minimum return rate (MRR, mRR).",
+  "source_documents": [
+   "122 - Cradle.pdf"
+  ],
+  "source_pages": [
+   43
+  ],
+  "evidence_quotes": [
+   "Performance of CRADLE with GPT-4o in Dealer’s Life 2 gameplay"
+  ]
+ },
+ {
+  "id": "I01",
+  "question_type": "inventory_mismatch",
+  "expected_behavior": "abstain",
+  "question": "What warning does the article 'A warning about model welfare' give?",
+  "reference_answer": "The knowledge base cannot answer this: the file listed under this title (012) actually contains Anthropic's 'Claude's Constitution' (January 2026), not the article. A correct response should say the article's content is not available (or flag the mismatch).",
+  "source_documents": [
+   "012 - A warning about ‘model welfare’.pdf"
+  ],
+  "source_pages": [
+   2
+  ],
+  "evidence_quotes": [
+   "Claude’s constitution is a detailed description of Anthropic’s intentions for Claude’s values and behavior"
+  ]
+ },
+ {
+  "id": "O01",
+  "question_type": "out_of_corpus",
+  "expected_behavior": "abstain",
+  "question": "What does the RAPTOR paper propose for recursive tree-structured retrieval, and what results did it report on the QuALITY benchmark?",
+  "reference_answer": "Not answerable from the knowledge base: RAPTOR is not in the collection (only one passing mention in a survey). The system should say it lacks this information.",
+  "source_documents": [],
+  "source_pages": [],
+  "evidence_quotes": [],
+  "probe_term": "RAPTOR",
+  "corpus_docs_mentioning_term": 1
+ },
+ {
+  "id": "O02",
+  "question_type": "out_of_corpus",
+  "expected_behavior": "abstain",
+  "question": "What are the main language-modeling results of the Mamba selective state space model paper?",
+  "reference_answer": "Not answerable from the knowledge base: the Mamba paper is not in the collection (only passing mentions). The system should say it lacks this information.",
+  "source_documents": [],
+  "source_pages": [],
+  "evidence_quotes": [],
+  "probe_term": "Mamba",
+  "corpus_docs_mentioning_term": 2
+ },
+ {
+  "id": "O03",
+  "question_type": "out_of_corpus",
+  "expected_behavior": "abstain",
+  "question": "What is the price per million input tokens of Amazon Nova Lite?",
+  "reference_answer": "Not answerable from the knowledge base (no document discusses Amazon Nova pricing).",
+  "source_documents": [],
+  "source_pages": [],
+  "evidence_quotes": [],
+  "probe_term": "Nova Lite",
+  "corpus_docs_mentioning_term": 0
+ },
+ {
+  "id": "O04",
+  "question_type": "out_of_corpus",
+  "expected_behavior": "abstain",
+  "question": "Which benchmark results were published for Meta's Llama 4 Behemoth model?",
+  "reference_answer": "Not answerable from the knowledge base (no document covers Llama 4 Behemoth).",
+  "source_documents": [],
+  "source_pages": [],
+  "evidence_quotes": [],
+  "probe_term": "Behemoth",
+  "corpus_docs_mentioning_term": 0
+ },
+ {
+  "id": "O05",
+  "question_type": "out_of_corpus",
+  "expected_behavior": "abstain",
+  "question": "Who won the 2026 FIFA World Cup?",
+  "reference_answer": "Not answerable from the knowledge base (off-topic). The system should decline or say the knowledge base does not cover it.",
+  "source_documents": [],
+  "source_pages": [],
+  "evidence_quotes": [],
+  "probe_term": "World Cup",
+  "corpus_docs_mentioning_term": 0
+ },
+ {
+  "id": "O06",
+  "question_type": "out_of_corpus",
+  "expected_behavior": "abstain",
+  "question": "What is a good recipe for Karelian pies?",
+  "reference_answer": "Not answerable from the knowledge base (off-topic). The system should decline or say the knowledge base does not cover it.",
+  "source_documents": [],
+  "source_pages": [],
+  "evidence_quotes": [],
+  "probe_term": "Karelian",
+  "corpus_docs_mentioning_term": 0
+ }
+]

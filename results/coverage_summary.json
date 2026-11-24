@@ -1,0 +1,34 @@
+{
+  "n_documents": 183,
+  "early_probe_hit_rate": 0.907103825136612,
+  "late_probe_hit_rate": 0.8797814207650273,
+  "docs_retrievable_by_any_probe": 178,
+  "docs_never_retrieved": [
+    "072 - AgentSociety 2 An Integrated Research Environment for Executable Social Science.pdf",
+    "082 - The Anatomy of a Personal Health Agent.pdf",
+    "106 - SCP Accelerating Discovery with a Global Web of Autonomous Scientific Agents.pdf",
+    "114 - EduAgentQG A Multi-Agent Workflow Framework for Personalized Question Generation.pdf",
+    "122 - Cradle.pdf"
+  ],
+  "docs_early_hit_late_miss": [
+    "030 - Language Models Do Not Embed Numbers Continuously.pdf",
+    "038 - Reflexion Language Agents with Verbal Reinforcement Learning.pdf",
+    "070 - LLM Social Simulations Are a Promising Research Method.pdf",
+    "086 - RhinoInsight Improving Deep Research throughControl Mechanisms for Model Behavior and Context.pdf",
+    "090 - Recursive self-improvement of AI research agents.pdf",
+    "093 - Can AI agents conduct open-ended AI research Early evidence from two case studies.pdf",
+    "100 - OmniScientist An Omni-Modal Omni-Discipline AI Scientist.pdf",
+    "109 - PARNESS A Paper Harness for End-to-End Automated Scientific Research with Dynamic Workflows, Full-Text Indexing, and Cro.pdf",
+    "123 - Confucius Code Agent An Open-sourced AI Software Engineer at Industrial Scale.pdf",
+    "127 - Synthetic Arabic Medical Dialogues Using Advanced Multi-Agent LLM Techniques.pdf",
+    "130 - Surfer 2 The Next Generation of Cross-Platform Computer Use Agents.pdf",
+    "136 - Vending-Bench A Benchmark for Long-Term Coherence of Autonomous Agents.pdf",
+    "150 - Test-Driven AI Agent Definition (TDAD) Compiling Tool-Using Agents from Behavioral Specifications.pdf",
+    "156 - WebArena A Realistic Web Environment for Building Autonomous Agents.pdf",
+    "164 - AI Agent Traps.pdf",
+    "171 - Towards Understanding Sycophancy in Language Models.pdf"
+  ],
+  "distinct_sources_seen_in_all_responses": 178,
+  "sources_seen_not_in_collection": [],
+  "endpoint_requests_sent_total": 366
+}

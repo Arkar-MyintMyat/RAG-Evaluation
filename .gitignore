@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+data/papers_zip/
+data/papers/
+data/papers_text.jsonl
+report/backup_user_edit/
+report/generated/
+results/ragas/run_log.txt
+*.tmp
+~$*

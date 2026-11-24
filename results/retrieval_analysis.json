@@ -1,0 +1,184 @@
+{
+ "retrieval_by_question_type": [
+  {
+   "question_type": "false_premise",
+   "n": 4,
+   "hit_at_5": 1.0,
+   "all_gold_found": 1.0,
+   "prec_at_5": 1.0,
+   "distinct_docs": 1.0,
+   "top_score": 0.584,
+   "abstain_rate": 0.5
+  },
+  {
+   "question_type": "inventory_mismatch",
+   "n": 1,
+   "hit_at_5": 0.0,
+   "all_gold_found": 0.0,
+   "prec_at_5": 0.0,
+   "distinct_docs": 3.0,
+   "top_score": 0.427,
+   "abstain_rate": 1.0
+  },
+  {
+   "question_type": "multi_hop",
+   "n": 8,
+   "hit_at_5": 0.75,
+   "all_gold_found": 0.5,
+   "prec_at_5": 0.85,
+   "distinct_docs": 2.125,
+   "top_score": 0.575,
+   "abstain_rate": 0.25
+  },
+  {
+   "question_type": "out_of_corpus",
+   "n": 6,
+   "hit_at_5": NaN,
+   "all_gold_found": NaN,
+   "prec_at_5": NaN,
+   "distinct_docs": 4.5,
+   "top_score": 0.456,
+   "abstain_rate": 1.0
+  },
+  {
+   "question_type": "paraphrase",
+   "n": 6,
+   "hit_at_5": 0.667,
+   "all_gold_found": 0.6666666666666666,
+   "prec_at_5": 0.3,
+   "distinct_docs": 3.5,
+   "top_score": 0.507,
+   "abstain_rate": 0.333
+  },
+  {
+   "question_type": "single_hop_abstract",
+   "n": 6,
+   "hit_at_5": 1.0,
+   "all_gold_found": 1.0,
+   "prec_at_5": 0.867,
+   "distinct_docs": 1.667,
+   "top_score": 0.638,
+   "abstain_rate": 0.0
+  },
+  {
+   "question_type": "single_hop_body",
+   "n": 26,
+   "hit_at_5": 1.0,
+   "all_gold_found": 1.0,
+   "prec_at_5": 0.892,
+   "distinct_docs": 1.462,
+   "top_score": 0.612,
+   "abstain_rate": 0.0
+  },
+  {
+   "question_type": "unindexed_doc",
+   "n": 5,
+   "hit_at_5": 0.0,
+   "all_gold_found": 0.0,
+   "prec_at_5": 0.0,
+   "distinct_docs": 3.0,
+   "top_score": 0.481,
+   "abstain_rate": 1.0
+  }
+ ],
+ "answerable_overall": {
+  "n": 46,
+  "hit_at_5": 0.913,
+  "all_gold_found": 0.87
+ },
+ "chunks": {
+  "responses_with_contexts": 477,
+  "k_always_5": true,
+  "unique_chunks": 1975,
+  "chunk_chars_median": 1274,
+  "chunk_chars_p10": 830,
+  "chunk_chars_p90": 1543,
+  "chunk_chars_max": 1804,
+  "near_duplicate_chunks_within_response": 32,
+  "near_duplicate_rate_per_chunk": 0.013,
+  "responses_containing_both_copies_of_a_duplicate_file": 16,
+  "bibliography_chunks": 158,
+  "bibliography_rate": 0.08,
+  "page_label_correct": 1691,
+  "page_label_chunk_spans_next_page": 237,
+  "page_label_wrong": 33,
+  "page_label_unverifiable": 14,
+  "page_label_wrong_examples": [
+   {
+    "source": "016 - A Systematic Survey of Prompt Engineering in Large Language Models Techniques and Applications.pdf",
+    "reported_page": 1,
+    "found_on_pages": [
+     2
+    ]
+   },
+   {
+    "source": "022 - Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design.pdf",
+    "reported_page": 1,
+    "found_on_pages": [
+     2
+    ]
+   },
+   {
+    "source": "167 - The Emerged Security and Privacy of LLM Agent A Survey with Case Studies.pdf",
+    "reported_page": 6,
+    "found_on_pages": [
+     7
+    ]
+   },
+   {
+    "source": "038 - Reflexion Language Agents with Verbal Reinforcement Learning.pdf",
+    "reported_page": 1,
+    "found_on_pages": [
+     2
+    ]
+   },
+   {
+    "source": "043 - Agent Harness for Large Language Model Agents.pdf",
+    "reported_page": 63,
+    "found_on_pages": [
+     64
+    ]
+   }
+  ]
+ },
+ "score_threshold_simulation": {
+  "0.45": {
+   "answerable_kept": 0.978,
+   "unanswerable_blocked": 0.417
+  },
+  "0.5": {
+   "answerable_kept": 0.891,
+   "unanswerable_blocked": 0.833
+  },
+  "0.55": {
+   "answerable_kept": 0.717,
+   "unanswerable_blocked": 1.0
+  },
+  "0.6": {
+   "answerable_kept": 0.478,
+   "unanswerable_blocked": 1.0
+  }
+ },
+ "top_score_answerable_mean": 0.595,
+ "top_score_unanswerable_mean": 0.464,
+ "latency": {
+  "/v1/chat/completions": {
+   "n": 99,
+   "median": 1.019,
+   "p10": 0.794,
+   "p90": 1.338,
+   "p99": 2.382,
+   "max": 3.332
+  },
+  "/v1/context": {
+   "n": 378,
+   "median": 0.529,
+   "p10": 0.478,
+   "p90": 0.612,
+   "p99": 1.192,
+   "max": 4.464
+  }
+ },
+ "corr_latency_vs_completion_tokens_testset": 0.678,
+ "first_request_of_session_latency_s": 2.233
+}
