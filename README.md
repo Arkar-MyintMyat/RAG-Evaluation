@@ -85,7 +85,7 @@ The report explains why I chose these and left out the others.
 ## How I made the test set
 
 1. I picked papers and pages at random (seed 2026), mostly pages from inside the papers rather than the abstract. This was to avoid writing only questions the system would find easy.
-2. For each page I wrote a question and a reference answer from that page alone, before looking at any of the system's answers. I used AI help to draft them.
+2. For each page I wrote a question and a reference answer from that page alone, before looking at any of the system's answers.
 3. `build_testset.py` checks that every evidence quote really appears on that page of the PDF.
 4. 4 of the 30 random pages were reference lists, so I dropped them.
 

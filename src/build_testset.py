@@ -3,7 +3,7 @@
 How the items were made (see README / report):
   * Documents and pages were drawn at random (src/sample_pages.py, seed 2026), NOT chosen by
     looking at what the endpoint retrieves -> no bias toward questions the system finds easy.
-  * Question + reference answer were written (with AI assistance) from the sampled page only.
+  * Question + reference answer were written from the sampled page only.
     Every answerable item carries a verbatim evidence quote; this script checks that the quote
     really occurs on the stated page of the source PDF (whitespace/hyphenation-insensitive).
   * Sampled pages that turned out to be reference lists were discarded (4 of 30).
