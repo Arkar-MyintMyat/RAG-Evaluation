@@ -18,7 +18,8 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-DOCS = {json.loads(l)["source"]: json.loads(l) for l in (ROOT / "data" / "papers_text.jsonl").open(encoding="utf-8")}
+PAPERS = ROOT / "data" / "papers_text.jsonl"  # made by extract_papers.py from the 1 GB papers.zip (not in the repo)
+DOCS = {json.loads(l)["source"]: json.loads(l) for l in PAPERS.open(encoding="utf-8")} if PAPERS.exists() else {}
 DUP_FILES = [("017", "037"), ("028", "039"), ("043", "058")]
 norm = lambda t: re.sub(r"[^a-z0-9]", "", t.lower())
 NORM_PAGES = {s: [norm(p) for p in d["pages"]] for s, d in DOCS.items()}
@@ -98,7 +99,12 @@ def main():
     lens = [len(c["text"]) for c in uniq]
     page_ok = page_off = page_unk = page_span = 0
     off_examples = []
-    for c in uniq:
+    prev_page_check = None
+    if not NORM_PAGES:  # without the paper text the page-label check cannot run: keep the earlier result
+        old = ROOT / "results" / "retrieval_analysis.json"
+        prev_page_check = {k: v for k, v in json.loads(old.read_text(encoding="utf-8"))["chunks"].items() if k.startswith("page_label")} if old.exists() else {}
+        print("note: data/papers_text.jsonl not found (run extract_papers.py); page-label check skipped, earlier result kept")
+    for c in (uniq if NORM_PAGES else []):
         pages = locate(c)
         if not pages:
             page_unk += 1
@@ -144,6 +150,8 @@ def main():
         "latency": latency, "corr_latency_vs_completion_tokens_testset": corr,
         "first_request_of_session_latency_s": float(lat.sort_values("ts").latency_s.iloc[0]),
     }
+    if prev_page_check is not None:
+        out["chunks"].update(prev_page_check)
     (ROOT / "results" / "retrieval_analysis.json").write_text(json.dumps(out, indent=1, default=float), encoding="utf-8")
     print(by_type.to_string()); print(json.dumps({k: v for k, v in out.items() if k != "retrieval_by_question_type"}, indent=1, default=float))
 

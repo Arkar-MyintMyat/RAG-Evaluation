@@ -39,14 +39,29 @@ All endpoint calls go through `src/endpoint.py`:
 
 Because the cache file is included, you can re-run the endpoint scripts below without sending any new requests.
 
-Run everything from the `assignment2` folder. On Windows I used `python -X utf8` so the paper text prints correctly.
+Run everything from the repository folder. On Windows I used `python -X utf8` so the paper text prints correctly.
+
+**Quick check (no papers, no VPN, no new endpoint requests).** After setup, these re-create my results from the included data and cache:
+
+```bash
+python -X utf8 src/run_testset.py
+python -X utf8 src/test_system.py
+python -X utf8 src/analyze_retrieval.py
+python -X utf8 src/aggregate.py
+python -X utf8 src/make_report.py
+```
+
+I tested this on a fresh clone. The outputs in `results/` came out identical to the committed ones. To be sure nothing is sent to the endpoint, add `ENDPOINT_BUDGET=0` to `.env`. Any request that is not in the cache then fails instead of being sent.
+
+**Full pipeline.** Steps 1–3 need the paper text. Step 7 needs the VPN.
 
 1. **Extract the paper text.** `python -X utf8 src/extract_papers.py --zip data/papers_zip/papers.zip`
-   - Only needed if you want to rebuild the test set or the coverage probes.
-   - It needs the 1 GB papers.zip from the assignment page, which I did not include.
+   - Needs the 1 GB papers.zip from the assignment page (not included). Put it in `data/papers_zip/`.
+   - Needed for steps 2 and 3, and for the page-label check in step 6. Without it, step 6 keeps my earlier result for that check.
    - Then run `python -X utf8 src/build_inventory.py`.
 2. **Coverage test.** `python -X utf8 src/test_coverage.py`
    - Sends two copied sentences from every paper to `/v1/context` and checks whether that paper comes back.
+   - The answers come from the cache, but the script needs the paper text to rebuild the probe sentences.
 3. **Test set.**
    - `python -X utf8 src/sample_pages.py --seed 2026` picks the random pages.
    - `python -X utf8 src/build_testset.py` writes the test set and checks every quote against the PDF.
@@ -65,7 +80,7 @@ Run everything from the `assignment2` folder. On Windows I used `python -X utf8`
 8. **Rebuild only the figures and report.**
    - `python -X utf8 src/aggregate.py`
    - then `python -X utf8 src/make_report.py --name "Your Name" --student_id "123456"`
-   - `make_report.py` writes to `report/generated/`, so it never overwrites my hand-edited `report/Evaluation-report.docx`.
+   - `make_report.py` fills the course template (included in `report/template/`) and writes to `report/generated/`, so it never overwrites my hand-edited `report/Evaluation-report.docx`.
    - To copy fresh numbers into the edited report: `python -X utf8 src/fill_pending.py`. It only replaces yellow `[PENDING]` markers.
    - `python -X utf8 src/style_tables.py` gives the added tables compact rows and borders.
 9. **Make the submission ZIP.** `python -X utf8 src/make_zip.py`

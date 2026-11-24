@@ -1,8 +1,8 @@
-"""Fill the course template (Evaluation-report.docx) with the results -> report/Evaluation-report.docx.
+"""Fill the course template (Evaluation-report.docx) with the results -> report/generated/Evaluation-report-generated.docx.
 
 All numbers are read from results/summary.json (run src/aggregate.py first). Ragas numbers that do not
 exist yet (judge not run) are written as a highlighted [PENDING] marker.
-Usage: python src/make_report.py [--template ../Evaluation-report.docx] [--name "..."] [--student_id "..."]
+Usage: python src/make_report.py [--template report/template/Evaluation-report-template.docx] [--name "..."] [--student_id "..."]
 """
 import argparse, copy, json
 from pathlib import Path
@@ -150,7 +150,7 @@ def add_appendix(d, sysd, ret):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--template", default=str(ROOT.parent / "Evaluation-report.docx"))
+    ap.add_argument("--template", default=str(ROOT / "report" / "template" / "Evaluation-report-template.docx"))
     ap.add_argument("--name", default="[your name]"); ap.add_argument("--student_id", default="[your student ID]")
     a = ap.parse_args()
     import pandas as pd
