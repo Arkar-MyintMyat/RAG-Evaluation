@@ -102,6 +102,85 @@ The final 62 questions:
 | 1 | about a listed paper whose file contains a different document |
 | 6 | outside the collection |
 
+## Details behind the report
+
+The report is kept short for XYZ Inc., so the details are collected here. Question IDs refer to `data/testset.csv`.
+
+### The document collection
+
+- **Never retrieved:** 5 papers don't come back, not even for a sentence copied from them or for their title. Most likely they were never ingested.
+  - #72 AgentSociety 2
+  - #82 The Anatomy of a Personal Health Agent (94 MB, over Bedrock's 50 MB file limit)
+  - #106 SCP
+  - #114 EduAgentQG
+  - #122 Cradle
+- **Indexed twice:**
+  - ReAct (files 017 and 037)
+  - HyDE (028 and 039)
+  - Agent Harness (043 and 058)
+
+  In 16 responses both copies took up slots in the top 5.
+- **Wrong file:**
+  - #12 "A warning about model welfare" actually contains Claude's Constitution.
+  - #10 "Measuring AI agent autonomy in practice" is only the appendix.
+- **Numbering error:** the shared document list numbers two different papers as #92, so it shows 182 entries for 183 files.
+
+All details are in `results/coverage.csv` and `results/coverage_summary.json`.
+
+### Examples used in the report
+
+| ID | What it shows |
+|---|---|
+| M01 | HERMES vs RAAS: all 5 chunks came from HERMES, so the answer was "I don't know". |
+| P01 | HyDE described without its name gets "I don't know"; the named version B07 is answered correctly. |
+| B26 | The AgentSquare GPT-3.5 ablation was answered with the GPT-4o table. Faithfulness 0.67, factual correctness 0.25. |
+| F03 | A reversed false premise about WOLF was accepted (3 out of 3 runs). |
+| B06 | A fully correct answer scored 0.00 on factual correctness, because my reference also described each item. |
+
+### How I checked the judge
+
+- **Second judge:** Gemma4 26B scored every item again. Agreement with GPT OSS 120B:
+
+  | Metric | Agreement |
+  |---|---|
+  | Faithfulness | 92% |
+  | Factual correctness | 83% |
+  | Context recall | 93% |
+  | Context precision | 91% |
+  | Abstention | 100% |
+  | Premise check | 100% |
+
+- **Repeat run:** GPT OSS re-scored 12 items. Scores changed by about 0.07 on average.
+- **Judge-free check:** LLM context recall agreed with the judge-free ID-based recall in 87% of cases.
+
+All numbers are in `results/summary.json` (`ragas` section).
+
+### All API / system tests
+
+`results/system_tests.json` has every request and answer. In short:
+
+- **Handled well:**
+  - wrong or missing API key → 401
+  - missing fields → 400 with a clear message
+  - unknown route → 404
+  - harmful request → blocked
+  - prompt injection and system-prompt extraction → refused
+  - Finnish, German and Chinese questions → answered correctly
+  - retrieval is identical across repeats, and `/v1/context` returns the same chunks as the chat route
+- **Problems:**
+  - malformed JSON, whitespace-only text and non-string content give 502 instead of 400, often with internal AWS error text
+  - queries over 20,000 characters also give 502
+  - a list sent as `/v1/context` query is accepted
+  - GET on the chat route returns 400 instead of 405
+  - `stream`, `max_tokens`, `n`, `model`, `temperature`, `top_k` and system messages are ignored
+  - chat history is ignored for retrieval
+  - a benign question about the indexed paper "AI Agent Traps" was blocked by the content filter
+  - a typo version of B20 retrieved the right chunks but answered "no information"
+- **Latency** (from my laptop in Finland, one day, no load):
+  - chat: median 1.02 s, p90 1.34 s, max 3.3 s (n=99)
+  - retrieval only: median 0.53 s, p90 0.61 s (n=378)
+  - first request of the session: 2.2 s
+
 ## Endpoint requests used
 
 I used 494 of the roughly 1,000 allowed requests:
