@@ -21,7 +21,8 @@ RES = ROOT / "results"
 FIG = RES / "figures"; FIG.mkdir(parents=True, exist_ok=True)
 TYPE_ORDER = ["single_hop_abstract", "single_hop_body", "paraphrase", "multi_hop", "false_premise", "unindexed_doc", "inventory_mismatch", "out_of_corpus"]
 LLM_METRICS = ["faithfulness", "answer_relevancy", "llm_context_precision_with_reference", "context_recall", "factual_correctness", "premise_corrected", "appropriate_abstention"]
-SANITY = {"B26": "faithful but wrong condition (GPT-4o table reported as GPT-3.5): expect high faithfulness, low factual_correctness",
+SANITY = {"B06": "fully correct list of 4 specs; reference adds descriptions: recall-mode factual_correctness is pessimistic",
+          "B26": "faithful but wrong condition (GPT-4o table reported as GPT-3.5): expect high faithfulness, low factual_correctness",
           "A04": "answer '4% to 5%' is supported by p.15 but reference says '4 percent': reference incompleteness",
           "M01": "'I don't know' although one gold doc retrieved: expect answer_relevancy ~0",
           "P01": "'I don't know', gold doc not retrieved: expect context_recall ~0",

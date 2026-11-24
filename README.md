@@ -65,6 +65,9 @@ Run everything from the `assignment2` folder. On Windows I used `python -X utf8`
 8. **Rebuild only the figures and report.**
    - `python -X utf8 src/aggregate.py`
    - then `python -X utf8 src/make_report.py --name "Your Name" --student_id "123456"`
+   - `make_report.py` writes to `report/generated/`, so it never overwrites my hand-edited `report/Evaluation-report.docx`.
+   - To copy fresh numbers into the edited report: `python -X utf8 src/fill_pending.py`. It only replaces yellow `[PENDING]` markers.
+   - `python -X utf8 src/style_tables.py` gives the added tables compact rows and borders.
 9. **Make the submission ZIP.** `python -X utf8 src/make_zip.py`
    - Leaves out `.env`, `.venv` and the papers.
 

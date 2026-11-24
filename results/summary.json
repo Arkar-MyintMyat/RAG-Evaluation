@@ -239,7 +239,371 @@
   "mean_distinct_docs_in_top5": 2.12
  },
  "ragas": {
-  "status": "pending"
+  "status": "done",
+  "judge_main": "GPT OSS 120B (azsydsttjnlbfjbgqnwd)",
+  "mean_by_type": {
+   "single_hop_abstract": {
+    "answer_relevancy": 0.98,
+    "appropriate_abstention": NaN,
+    "context_recall": 0.917,
+    "factual_correctness": 0.502,
+    "faithfulness": 0.875,
+    "id_based_context_precision": 0.867,
+    "id_based_context_recall": 1.0,
+    "llm_context_precision_with_reference": 0.805,
+    "premise_corrected": NaN
+   },
+   "single_hop_body": {
+    "answer_relevancy": 0.974,
+    "appropriate_abstention": NaN,
+    "context_recall": 0.814,
+    "factual_correctness": 0.583,
+    "faithfulness": 0.936,
+    "id_based_context_precision": 0.846,
+    "id_based_context_recall": 1.0,
+    "llm_context_precision_with_reference": 0.674,
+    "premise_corrected": NaN
+   },
+   "paraphrase": {
+    "answer_relevancy": 0.634,
+    "appropriate_abstention": NaN,
+    "context_recall": 0.667,
+    "factual_correctness": 0.347,
+    "faithfulness": 0.587,
+    "id_based_context_precision": 0.256,
+    "id_based_context_recall": 0.667,
+    "llm_context_precision_with_reference": 0.589,
+    "premise_corrected": NaN
+   },
+   "multi_hop": {
+    "answer_relevancy": 0.734,
+    "appropriate_abstention": NaN,
+    "context_recall": 0.438,
+    "factual_correctness": 0.298,
+    "faithfulness": 0.562,
+    "id_based_context_precision": 0.823,
+    "id_based_context_recall": 0.75,
+    "llm_context_precision_with_reference": 0.322,
+    "premise_corrected": NaN
+   },
+   "false_premise": {
+    "answer_relevancy": NaN,
+    "appropriate_abstention": NaN,
+    "context_recall": NaN,
+    "factual_correctness": NaN,
+    "faithfulness": 0.631,
+    "id_based_context_precision": NaN,
+    "id_based_context_recall": NaN,
+    "llm_context_precision_with_reference": NaN,
+    "premise_corrected": 0.5
+   },
+   "unindexed_doc": {
+    "answer_relevancy": NaN,
+    "appropriate_abstention": 1.0,
+    "context_recall": NaN,
+    "factual_correctness": NaN,
+    "faithfulness": NaN,
+    "id_based_context_precision": NaN,
+    "id_based_context_recall": NaN,
+    "llm_context_precision_with_reference": NaN,
+    "premise_corrected": NaN
+   },
+   "inventory_mismatch": {
+    "answer_relevancy": NaN,
+    "appropriate_abstention": 1.0,
+    "context_recall": NaN,
+    "factual_correctness": NaN,
+    "faithfulness": NaN,
+    "id_based_context_precision": NaN,
+    "id_based_context_recall": NaN,
+    "llm_context_precision_with_reference": NaN,
+    "premise_corrected": NaN
+   },
+   "out_of_corpus": {
+    "answer_relevancy": NaN,
+    "appropriate_abstention": 1.0,
+    "context_recall": NaN,
+    "factual_correctness": NaN,
+    "faithfulness": NaN,
+    "id_based_context_precision": NaN,
+    "id_based_context_recall": NaN,
+    "llm_context_precision_with_reference": NaN,
+    "premise_corrected": NaN
+   }
+  },
+  "n_scored_by_type": {
+   "false_premise": {
+    "answer_relevancy": NaN,
+    "appropriate_abstention": NaN,
+    "context_recall": NaN,
+    "factual_correctness": NaN,
+    "faithfulness": 4.0,
+    "id_based_context_precision": NaN,
+    "id_based_context_recall": NaN,
+    "llm_context_precision_with_reference": NaN,
+    "premise_corrected": 4.0
+   },
+   "inventory_mismatch": {
+    "answer_relevancy": NaN,
+    "appropriate_abstention": 1.0,
+    "context_recall": NaN,
+    "factual_correctness": NaN,
+    "faithfulness": NaN,
+    "id_based_context_precision": NaN,
+    "id_based_context_recall": NaN,
+    "llm_context_precision_with_reference": NaN,
+    "premise_corrected": NaN
+   },
+   "multi_hop": {
+    "answer_relevancy": 8.0,
+    "appropriate_abstention": NaN,
+    "context_recall": 8.0,
+    "factual_correctness": 8.0,
+    "faithfulness": 8.0,
+    "id_based_context_precision": 8.0,
+    "id_based_context_recall": 8.0,
+    "llm_context_precision_with_reference": 8.0,
+    "premise_corrected": NaN
+   },
+   "out_of_corpus": {
+    "answer_relevancy": NaN,
+    "appropriate_abstention": 6.0,
+    "context_recall": NaN,
+    "factual_correctness": NaN,
+    "faithfulness": NaN,
+    "id_based_context_precision": NaN,
+    "id_based_context_recall": NaN,
+    "llm_context_precision_with_reference": NaN,
+    "premise_corrected": NaN
+   },
+   "paraphrase": {
+    "answer_relevancy": 6.0,
+    "appropriate_abstention": NaN,
+    "context_recall": 6.0,
+    "factual_correctness": 6.0,
+    "faithfulness": 6.0,
+    "id_based_context_precision": 6.0,
+    "id_based_context_recall": 6.0,
+    "llm_context_precision_with_reference": 6.0,
+    "premise_corrected": NaN
+   },
+   "single_hop_abstract": {
+    "answer_relevancy": 6.0,
+    "appropriate_abstention": NaN,
+    "context_recall": 6.0,
+    "factual_correctness": 6.0,
+    "faithfulness": 6.0,
+    "id_based_context_precision": 6.0,
+    "id_based_context_recall": 6.0,
+    "llm_context_precision_with_reference": 6.0,
+    "premise_corrected": NaN
+   },
+   "single_hop_body": {
+    "answer_relevancy": 26.0,
+    "appropriate_abstention": NaN,
+    "context_recall": 26.0,
+    "factual_correctness": 26.0,
+    "faithfulness": 26.0,
+    "id_based_context_precision": 26.0,
+    "id_based_context_recall": 26.0,
+    "llm_context_precision_with_reference": 26.0,
+    "premise_corrected": NaN
+   },
+   "unindexed_doc": {
+    "answer_relevancy": NaN,
+    "appropriate_abstention": 5.0,
+    "context_recall": NaN,
+    "factual_correctness": NaN,
+    "faithfulness": NaN,
+    "id_based_context_precision": NaN,
+    "id_based_context_recall": NaN,
+    "llm_context_precision_with_reference": NaN,
+    "premise_corrected": NaN
+   }
+  },
+  "answerable_overall_mean": {
+   "answer_relevancy": 0.889,
+   "context_recall": 0.743,
+   "factual_correctness": 0.492,
+   "faithfulness": 0.818,
+   "id_based_context_precision": 0.768,
+   "id_based_context_recall": 0.913,
+   "llm_context_precision_with_reference": 0.619
+  },
+  "answerable_overall_median": {
+   "answer_relevancy": 0.978,
+   "context_recall": 1.0,
+   "factual_correctness": 0.5,
+   "faithfulness": 1.0,
+   "id_based_context_precision": 1.0,
+   "id_based_context_recall": 1.0,
+   "llm_context_precision_with_reference": 0.7
+  },
+  "nan_counts": {},
+  "scores_on_idk_answers": {
+   "answer_relevancy": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "factual_correctness": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "faithfulness": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "sanity_cases": {
+   "B06": {
+    "expectation": "fully correct list of 4 specs; reference adds descriptions: recall-mode factual_correctness is pessimistic",
+    "scores": {
+     "id_based_context_recall": 1.0,
+     "id_based_context_precision": 1.0,
+     "faithfulness": 1.0,
+     "answer_relevancy": 0.996,
+     "llm_context_precision_with_reference": 0.833,
+     "context_recall": 1.0,
+     "factual_correctness": 0.0
+    }
+   },
+   "B26": {
+    "expectation": "faithful but wrong condition (GPT-4o table reported as GPT-3.5): expect high faithfulness, low factual_correctness",
+    "scores": {
+     "id_based_context_recall": 1.0,
+     "id_based_context_precision": 0.5,
+     "faithfulness": 0.667,
+     "answer_relevancy": 0.979,
+     "factual_correctness": 0.25,
+     "llm_context_precision_with_reference": 0.0,
+     "context_recall": 0.0
+    }
+   },
+   "A04": {
+    "expectation": "answer '4% to 5%' is supported by p.15 but reference says '4 percent': reference incompleteness",
+    "scores": {
+     "id_based_context_recall": 1.0,
+     "id_based_context_precision": 1.0,
+     "faithfulness": 0.5,
+     "answer_relevancy": 0.994,
+     "llm_context_precision_with_reference": 0.639,
+     "context_recall": 1.0,
+     "factual_correctness": 0.0
+    }
+   },
+   "M01": {
+    "expectation": "'I don't know' although one gold doc retrieved: expect answer_relevancy ~0",
+    "scores": {
+     "id_based_context_recall": 0.5,
+     "id_based_context_precision": 1.0,
+     "faithfulness": 0.0,
+     "answer_relevancy": 0.0,
+     "llm_context_precision_with_reference": 0.0,
+     "context_recall": 0.5,
+     "factual_correctness": 0.0
+    }
+   },
+   "P01": {
+    "expectation": "'I don't know', gold doc not retrieved: expect context_recall ~0",
+    "scores": {
+     "id_based_context_recall": 0.0,
+     "id_based_context_precision": 0.0,
+     "faithfulness": 0.0,
+     "answer_relevancy": 0.0,
+     "llm_context_precision_with_reference": 0.0,
+     "context_recall": 0.5,
+     "factual_correctness": 0.0
+    }
+   },
+   "F03": {
+    "expectation": "accepts reversed premise: expect premise_corrected = 0",
+    "scores": {
+     "faithfulness": 0.857,
+     "premise_corrected": 0.0
+    }
+   }
+  },
+  "llm_vs_id_context_recall": {
+   "n": 46,
+   "agreement_on_binary(>=0.5)": 0.87,
+   "spearman": 0.436
+  },
+  "judge_stability": {
+   "factual_correctness": {
+    "n": 12,
+    "mean_abs_diff": 0.068,
+    "identical_share": 0.583
+   },
+   "faithfulness": {
+    "n": 12,
+    "mean_abs_diff": 0.077,
+    "identical_share": 0.583
+   }
+  },
+  "inter_judge_agreement": {
+   "answer_relevancy": {
+    "n": 46,
+    "mean_big": 0.889,
+    "mean_small": 0.887,
+    "mean_abs_diff": 0.008,
+    "binary_agreement(>=0.5)": 1.0,
+    "spearman": 0.882
+   },
+   "appropriate_abstention": {
+    "n": 12,
+    "mean_big": 1.0,
+    "mean_small": 1.0,
+    "mean_abs_diff": 0.0,
+    "binary_agreement(>=0.5)": 1.0
+   },
+   "context_recall": {
+    "n": 46,
+    "mean_big": 0.743,
+    "mean_small": 0.768,
+    "mean_abs_diff": 0.054,
+    "binary_agreement(>=0.5)": 0.935,
+    "spearman": 0.89
+   },
+   "factual_correctness": {
+    "n": 46,
+    "mean_big": 0.492,
+    "mean_small": 0.451,
+    "mean_abs_diff": 0.126,
+    "binary_agreement(>=0.5)": 0.826,
+    "spearman": 0.782
+   },
+   "faithfulness": {
+    "n": 50,
+    "mean_big": 0.803,
+    "mean_small": 0.815,
+    "mean_abs_diff": 0.076,
+    "binary_agreement(>=0.5)": 0.92,
+    "spearman": 0.789
+   },
+   "llm_context_precision_with_reference": {
+    "n": 45,
+    "mean_big": 0.613,
+    "mean_small": 0.603,
+    "mean_abs_diff": 0.129,
+    "binary_agreement(>=0.5)": 0.911,
+    "spearman": 0.752
+   },
+   "premise_corrected": {
+    "n": 4,
+    "mean_big": 0.5,
+    "mean_small": 0.5,
+    "mean_abs_diff": 0.0,
+    "binary_agreement(>=0.5)": 1.0,
+    "spearman": 1.0
+   }
+  }
  },
  "system_tests": {
   "error_cases": {

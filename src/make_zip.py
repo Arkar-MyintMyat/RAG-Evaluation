@@ -4,8 +4,8 @@ Usage: python src/make_zip.py   -> ../assignment2.zip
 import zipfile
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
-EXCL_DIRS = {".venv", "__pycache__", "papers_zip"}
-EXCL_FILES = {".env", "papers_text.jsonl"}
+EXCL_DIRS = {".venv", "__pycache__", "papers_zip", "backup_user_edit", "generated"}
+EXCL_FILES = {".env", "papers_text.jsonl", "run_log.txt"}
 out = ROOT.parent / "assignment2.zip"
 with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
     for p in sorted(ROOT.rglob("*")):

@@ -29,7 +29,9 @@ def ov(metric, fmt="{:.2f}"):
 
 def agr(metric, key):
     v = ((RG.get("inter_judge_agreement") or {}).get(metric) or {}).get(key)
-    return f"{v:.2f}" if v is not None else PENDING
+    if v is None:
+        return PENDING
+    return f"{v:.0%}" if key.startswith("binary") else f"{v:.2f}"
 
 
 def stab(metric):
@@ -253,7 +255,7 @@ def main():
         ("**How far I trust the numbers.** "
          f"The two judges agreed on faithfulness in {agr('faithfulness','binary_agreement(>=0.5)')} of cases and on factual correctness in {agr('factual_correctness','binary_agreement(>=0.5)')}; "
          f"re-running the same judge changed factual correctness by {stab('factual_correctness')} on average. Faithfulness can be misleading (the AgentSquare case), \"I don't know\" answers get no faithfulness score, and "
-         "one answer was marked partly wrong only because my reference was incomplete. With 1 to 26 questions per type and no human labels, the numbers show clear differences between types, not exact quality levels."),
+         f"one answer was marked partly wrong only because my reference was incomplete. Because of this, factual correctness is pessimistic overall: B06 lists all four SpecSuite-Core specifications correctly but scored {sanity('B06','factual_correctness')}, because my reference also described each one. With 1 to 26 questions per type and no human labels, the numbers show clear differences between types, not exact quality levels."),
     ]
     last = tb
     for f in F:
